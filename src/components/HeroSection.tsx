@@ -28,7 +28,8 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 relative z-10 max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="max-w-2xl">
+          {/* UPDATED: Added relative lg:-left-8 to nudge this left on desktop */}
+          <div className="max-w-2xl relative lg:-left-8 xl:-left-12">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6 text-[#3F9472]">
               Custom Packaging your customers will love
             </h1>
@@ -62,6 +63,7 @@ const HeroSection = () => {
                     width={91}
                     height={91}
                     className="-mt-1 -mx-4"
+                    alt="Arrow pointing to button"
                   />
                 </div>
               </div>

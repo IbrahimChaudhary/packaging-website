@@ -1,22 +1,6 @@
-import {
-  Globe,
-  DollarSign,
-  Cuboid,
-  Clock,
-  Printer,
-  Headphones,
-  CreditCard,
-  Warehouse,
-  Truck,
-  Zap,
-} from "lucide-react";
+import { DollarSign, Cuboid, Clock, Printer, Truck } from "lucide-react";
 
 const features = [
-  // {
-  //   icon: Globe,
-  //   title: "Global Sourcing",
-  //   desc: "Premium materials sourced from trusted suppliers worldwide.",
-  // },
   {
     icon: Truck,
     title: "Free Shipping",
@@ -42,52 +26,31 @@ const features = [
     title: "High-Volume Printing",
     desc: "From 50 to 500,000+ boxes per order run.",
   },
-  // {
-  //   icon: Headphones,
-  //   title: "24/7 Support",
-  //   desc: "Dedicated support team available around the clock.",
-  // },
-  // {
-  //   icon: CreditCard,
-  //   title: "Custom Payment Plans",
-  //   desc: "Flexible payment options tailored to your needs.",
-  // },
-  // {
-  //   icon: Warehouse,
-  //   title: "Warehousing & Inventory",
-  //   desc: "Store your packaging inventory at no extra cost.",
-  // },
-  // {
-  //   icon: Truck,
-  //   title: "Free Shipping",
-  //   desc: "100% free shipping on every order across the US.",
-  // },
-  // {
-  //   icon: Zap,
-  //   title: "7 Days Turnaround",
-  //   desc: "Get your boxes in as little as 7 business days.",
-  // },
 ];
 
 const FeaturesRow = () => (
-  <section className="py-16 bg-background">
+  <section className="py-16 bg-[#fbf9f2]">
     <div className="container mx-auto px-4">
-      <h2 className="text-2xl md:text-4xl font-black text-center mb-12 text-foreground">
-        Why Brands Choose Us for Premium Custom Packaging
+      <h2 className="text-2xl md:text-4xl font-black text-center text-[#1f5c4a]">
+        Why Brands Choose Us for{" "}
+        <span className="text-[#e8b923]">Premium Custom Packaging</span>
       </h2>
+
+      <div className="w-16 h-[3px] bg-[#e8b923] mx-auto mt-4 mb-12 rounded-full" />
+
       <div className="grid grid-cols-2 md:grid-cols-5 gap-5">
         {features.map((f) => (
           <div
             key={f.title}
-            className="flex flex-col items-center text-center p-5 rounded-xl border border-border hover:border-primary/40 hover:shadow-md transition-all"
+            className="flex flex-col items-center text-center p-6 pb-7 bg-white rounded-lg border border-[#eee7d6] border-b-4 border-b-[#2f7a5c] hover:shadow-md transition-all"
           >
-            <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center mb-3">
-              <f.icon className="h-6 w-6 text-primary" />
+            <div className="w-14 h-14 rounded-full bg-[#e3efe9] flex items-center justify-center mb-4">
+              <f.icon className="h-6 w-6 text-[#2f7a5c]" strokeWidth={1.75} />
             </div>
-            <h3 className="text-sm font-bold mb-1 text-foreground">
+            <h3 className="text-xs font-extrabold tracking-wide uppercase mb-2 text-[#1f5c4a]">
               {f.title}
             </h3>
-            <p className="text-xs text-muted-foreground">{f.desc}</p>
+            <p className="text-xs text-[#6b6b6b] leading-relaxed">{f.desc}</p>
           </div>
         ))}
       </div>
