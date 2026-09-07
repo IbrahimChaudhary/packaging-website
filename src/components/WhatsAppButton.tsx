@@ -2,7 +2,7 @@ const WhatsAppButton = () => (
   <div className="fixed bottom-6 left-6 z-50 w-14 h-14">
     <span className="absolute inset-0 rounded-full border-2 border-[#25D366] animate-[whatsapp-ring_1.2s_ease-out_infinite]" />
     <a
-      href="https://wa.me/18333275627"
+      href="https://wa.me/19707943622"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
