@@ -225,7 +225,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-secondary-foreground/70">
               {[
                 { label: "About Us", href: "/about-us" },
-                { label: "Contact Us", href: "#quote" },
+                
                 { label: "Terms and Conditions", href: "/cpl-policies" },
                 {
                   label: "Artwork Approval / Production Policy",
@@ -241,7 +241,7 @@ const Footer = () => {
                 },
                 { label: "Shipping Policy", href: "/shipping-policy" },
                 { label: "Privacy Policy", href: "/privacy-policy" },
-                { label: "Portfolio", href: "/portfolio" },
+                
                 { label: "FAQs", href: "/blog" },
               ].map((l) => (
                 <li key={l.label} className="flex items-center gap-2">

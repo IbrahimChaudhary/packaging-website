@@ -8,10 +8,6 @@ const faqs = [
   { q: "What is the minimum order quantity?", a: "Our minimum order starts at just 50 boxes, making it accessible for small businesses and startups." },
   { q: "Can I fully customize the size and style?", a: "Absolutely! Every box is made to your exact specifications, custom dimensions, shapes, materials, and finishes." },
   { q: "Do you offer 3D mockups?", a: "Yes, we provide free 3D digital mockups so you can visualize your packaging before production begins." },
-  // { q: "Can I get physical prototypes?", a: "Yes, we offer pre-production physical prototypes so you can feel the material and see the design in person." },
-  // { q: "Can you print my logo on the packaging?", a: "Of course! We specialize in custom logo printing with options for foil stamping, embossing, debossing, and spot UV." },
-  // { q: "Do you offer double-sided printing?", a: "Yes, we offer both inside and outside printing to maximize your branding real estate." },
-  // { q: "Do you provide design assistance?", a: "Yes, our in-house design team provides free professional design support for every order." },
 ];
 
 const FAQSection = () => (
@@ -26,8 +22,10 @@ const FAQSection = () => (
           <AccordionTrigger className="text-left font-semibold text-white hover:no-underline [&>svg]:text-[#FFC107]">
             {faq.q}
           </AccordionTrigger>
-          <AccordionContent className="text-[#FFC107] leading-relaxed">
-            {faq.a}
+          <AccordionContent>
+            <div className="bg-[#FFC107] text-white rounded-xl p-4 leading-relaxed">
+              {faq.a}
+            </div>
           </AccordionContent>
         </AccordionItem>
       ))}

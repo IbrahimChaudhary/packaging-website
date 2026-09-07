@@ -68,11 +68,9 @@ const BrowseCategoriesGrid = () => {
                             transition-all duration-300
                           "
                   >
-                    <button
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToQuote();
-                      }}
+                  <Link to={`/product-category/${cat.slug}`}>
+                     <button
+                    
                       className="
                       px-5 py-2.5
                       bg-white
@@ -86,6 +84,8 @@ const BrowseCategoriesGrid = () => {
                     >
                       Get a Quote
                     </button>
+                  </Link>
+                    
                   </div>
                 </div>
                 <div className="p-4">

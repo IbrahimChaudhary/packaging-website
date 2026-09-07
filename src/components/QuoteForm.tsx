@@ -38,7 +38,6 @@ const quoteSchema = z.object({
 }).refine((data) => {
   return (data.email?.trim() || data.phone?.trim());
 }, { message: "Email or phone is required.", path: ["email"] });
-;
 
 const QuoteForm = () => {
   const { toast } = useToast();
@@ -160,7 +159,9 @@ const QuoteForm = () => {
         {/* Product Type & Material */}
         <div className="grid md:grid-cols-2 gap-4">
           <div>
-            <label className="block text-sm font-semibold mb-1 text-primary">Product Type *</label>
+            <label className="block text-sm font-semibold mb-1 text-primary">
+              Product Type <span className="text-[#FFC107]">*</span>
+            </label>
             <Select value={form.product_type} onValueChange={(v) => set("product_type", v)}>
               <SelectTrigger className={errors.product_type ? "border-destructive" : ""}><SelectValue placeholder="Select product type" /></SelectTrigger>
               <SelectContent>
@@ -221,7 +222,9 @@ const QuoteForm = () => {
 
         {/* Quantity */}
         <div>
-          <label className="block text-sm font-semibold mb-1 text-primary">Quantity *</label>
+          <label className="block text-sm font-semibold mb-1 text-primary">
+            Quantity <span className="text-[#FFC107]">*</span>
+          </label>
           <Input placeholder="e.g. 500" type="number" min="50" max="1000000" value={form.quantity} onChange={(e) => set("quantity", e.target.value)} className={errors.quantity ? "border-destructive" : ""} />
           {errors.quantity && <p className="text-destructive text-xs mt-1">{errors.quantity}</p>}
         </div>
@@ -229,17 +232,23 @@ const QuoteForm = () => {
         {/* Contact Info */}
         <div className="grid md:grid-cols-3 gap-4">
           <div>
-            <label className="block text-sm font-semibold mb-1 text-primary">Name *</label>
+            <label className="block text-sm font-semibold mb-1 text-primary">
+              Name <span className="text-[#FFC107]">*</span>
+            </label>
             <Input placeholder="Your name" maxLength={100} value={form.name} onChange={(e) => set("name", e.target.value)} className={errors.name ? "border-destructive" : ""} />
             {errors.name && <p className="text-destructive text-xs mt-1">{errors.name}</p>}
           </div>
           <div>
-            <label className="block text-sm font-semibold mb-1 text-primary">Email *</label>
+            <label className="block text-sm font-semibold mb-1 text-primary">
+              Email <span className="text-[#FFC107]">*</span>
+            </label>
             <Input placeholder="you@company.com" type="email" maxLength={255} value={form.email} onChange={(e) => set("email", e.target.value)} className={errors.email ? "border-destructive" : ""} />
             {errors.email && <p className="text-destructive text-xs mt-1">{errors.email}</p>}
           </div>
           <div>
-            <label className="block text-sm font-semibold mb-1 text-primary">Phone</label>
+            <label className="block text-sm font-semibold mb-1 text-primary">
+              Phone <span className="text-[#FFC107]">*</span>
+            </label>
             <Input placeholder="+1 (555) 000-0000" maxLength={20} value={form.phone} onChange={(e) => set("phone", e.target.value)} className={errors.phone ? "border-destructive" : ""} />
             {errors.phone && <p className="text-destructive text-xs mt-1">{errors.phone}</p>}
           </div>
