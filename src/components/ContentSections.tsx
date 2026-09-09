@@ -35,9 +35,9 @@ const ContentSections = () => (
         transition={{ duration: 0.5 }}
       >
         
-        <h2 className="font-serif text-4xl md:text-6xl text-[#1f2d24] leading-tight">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6 text-[#1f2d24] ">
           Your packaging in{" "}
-          <span className="italic text-[#2f7a5c]">5 simple steps</span>
+          <span className="italic text-[#32936F]">5 simple steps</span>
         </h2>
         <p className="mt-4 text-[#5c5c52] text-base md:text-lg">
           From first click to doorstep delivery — one smooth, transparent process.
@@ -61,16 +61,16 @@ const ContentSections = () => (
               transition={{ duration: 0.5, delay: i * 0.15, ease: "easeOut" }}
             >
               <motion.div
-                className="w-20 h-20 rounded-2xl bg-[#2f7a5c] text-white flex items-center justify-center mb-5 shadow-md relative"
+                className="w-20 h-20 rounded-2xl bg-[#32936F] text-white flex items-center justify-center mb-5 shadow-md relative"
                 whileHover={{ scale: 1.12, rotate: 5, y: -4 }}
                 transition={{ type: "spring", stiffness: 300, damping: 15 }}
               >
                 <Icon className="w-9 h-9" strokeWidth={1.8} />
-                <span className="absolute -top-2.5 -right-2.5 w-7 h-7 rounded-full bg-[#f2b705] text-[#1f2d24] text-xs font-black flex items-center justify-center shadow-sm">
+                <span className="absolute -top-2.5 -right-2.5 w-7 h-7 rounded-full bg-[#FFC107] text-[#1f2d24] text-xs font-black flex items-center justify-center shadow-sm">
                   {s.step}
                 </span>
               </motion.div>
-              <h3 className="font-serif text-lg text-[#1f2d24] leading-tight mb-1">
+              <h3 className="font-sans text-lg text-[#1f2d24] leading-tight mb-1">
                 {s.title}
               </h3>
               <p className="text-xs text-[#5c5c52] leading-snug">
@@ -95,9 +95,9 @@ const ContentSections = () => (
               transition={{ duration: 0.4, delay: i * 0.08 }}
             >
               <div className="flex flex-col items-center">
-                <div className="w-14 h-14 rounded-xl bg-[#2f7a5c] text-white flex items-center justify-center relative shadow-md">
+                <div className="w-14 h-14 rounded-xl bg-[#32936F] text-white flex items-center justify-center relative shadow-md">
                   <Icon className="w-7 h-7" strokeWidth={1.8} />
-                  <span className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-[#f2b705] text-[#1f2d24] text-[10px] font-black flex items-center justify-center">
+                  <span className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-[#FFC107] text-[#1f2d24] text-[10px] font-black flex items-center justify-center">
                     {s.step}
                   </span>
                 </div>
@@ -106,7 +106,7 @@ const ContentSections = () => (
                 )}
               </div>
               <div className="pt-2">
-                <h3 className="font-serif text-base text-[#1f2d24]">{s.title}</h3>
+                <h3 className="font-sans text-base text-[#1f2d24]">{s.title}</h3>
                 <p className="text-xs text-[#5c5c52]">{s.description}</p>
               </div>
             </motion.div>
@@ -121,7 +121,7 @@ const ContentSections = () => (
         viewport={{ once: true, margin: "-30px" }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        <button className="inline-flex items-center gap-2 bg-[#2f7a5c] hover:bg-[#28684e] text-white font-bold text-sm px-7 py-4 rounded-full transition-colors">
+        <button className="inline-flex items-center gap-2 bg-[#32936F] hover:bg-[#2a7d59] text-white font-bold text-sm px-7 py-4 rounded-full transition-colors">
           Start your order
           <ArrowUpRight className="w-4 h-4" />
         </button>
