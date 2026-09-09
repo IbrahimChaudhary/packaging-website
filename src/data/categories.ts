@@ -14,6 +14,7 @@ export interface Category {
   icon: any;
   gradient: string;
   images?: string[];
+  hoverImage?: string;
   subProducts: SubProduct[];
   faq: { question: string; answer: string }[];
 }
@@ -25,12 +26,15 @@ export const categories: Category[] = [
     icon: CandleIcon,
     gradient: "from-amber-500 to-orange-600",
     images: [
+      "/images/By Industries 2/Canlde boxes/2.png",
+      "/images/By Industries 2/Canlde boxes/3.png",
       "/images/categories/candle_1.jpg",
       "/images/categories/candle_2.jpg",
       "/images/categories/candle_3.jpg",
       "/images/categories/candle_4.jpg",
       "/images/categories/candle_5.jpg",
     ],
+    hoverImage: "/images/By Industries 2/Canlde boxes/3.png",
     description: "Premium candle packaging that protects and showcases your candles beautifully.",
     longDescription: "Our candle boxes are designed to complement your brand's aesthetic while ensuring maximum protection for your products. Whether you sell jar candles, pillar candles, or votives, we offer tailored packaging solutions that enhance shelf appeal and create memorable unboxing experiences.",
     subProducts: [
@@ -307,7 +311,8 @@ export const categories: Category[] = [
     name: "Custom Mylar Bags",
     icon: MylarBagIcon,
     gradient: "from-zinc-500 to-neutral-700",
-    images: ["/images/categories/mylar_1.jpg", "/images/categories/mylar_2.jpg", "/images/categories/mylar_3.jpg", "/images/categories/mylar_4.jpg", "/images/categories/mylar_5.jpg"],
+    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/By Style 2/Mylar bag/eqdwfsd.png", "/images/categories/mylar_1.jpg", "/images/categories/mylar_2.jpg", "/images/categories/mylar_3.jpg", "/images/categories/mylar_4.jpg", "/images/categories/mylar_5.jpg"],
+    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
     description: "Durable mylar bags with barrier protection for food, cannabis, and specialty products.",
     longDescription: "Our custom mylar bags offer superior barrier protection against moisture, light, and oxygen. Available in stand-up pouches, flat bags, and side gusset styles with resealable zip locks, hang holes, and custom printing for maximum shelf appeal.",
     subProducts: [

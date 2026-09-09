@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Package, ArrowRight } from "lucide-react";
 import { categories } from "@/data/categories";
+import HoverImage from "@/components/HoverImage";
 
 const displayCategories = categories.slice(0, 11);
 
@@ -30,11 +31,10 @@ const ProductCategories = () => (
               {/* Image */}
               <div className="aspect-[4/3] overflow-hidden bg-muted">
                 {cat.images?.[0] ? (
-                  <img
+                  <HoverImage
                     src={cat.images[0]}
+                    hoverSrc={cat.hoverImage}
                     alt={cat.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    loading="lazy"
                   />
                 ) : (
                   <div className={`w-full h-full bg-gradient-to-br ${cat.gradient} flex items-center justify-center`}>
@@ -51,11 +51,13 @@ const ProductCategories = () => (
                 <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
               </div>
 
-              {/* Hover overlay */}
-              <div className="absolute inset-0 bg-primary/80 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span className="text-primary-foreground text-sm font-bold">Get a Quote</span>
-                <ArrowRight className="h-5 w-5 text-primary-foreground mt-1" />
-              </div>
+              {/* Hover overlay (hidden for cards that swap to an open box image) */}
+              {!cat.hoverImage && (
+                <div className="absolute inset-0 bg-primary/80 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="text-primary-foreground text-sm font-bold">Get a Quote</span>
+                  <ArrowRight className="h-5 w-5 text-primary-foreground mt-1" />
+                </div>
+              )}
             </motion.div>
           </Link>
         ))}

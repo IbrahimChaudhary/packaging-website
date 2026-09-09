@@ -121,10 +121,17 @@ const ContentSections = () => (
         viewport={{ once: true, margin: "-30px" }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        <button className="inline-flex items-center gap-2 bg-[#32936F] hover:bg-[#2a7d59] text-white font-bold text-sm px-7 py-4 rounded-full transition-colors">
+        <a
+          href="#quote"
+          onClick={(e) => {
+            e.preventDefault();
+            document.getElementById("quote")?.scrollIntoView({ behavior: "smooth" });
+          }}
+          className="inline-flex items-center gap-2 bg-[#32936F] hover:bg-[#2a7d59] text-white font-bold text-sm px-7 py-4 rounded-full transition-colors"
+        >
           Start your order
           <ArrowUpRight className="w-4 h-4" />
-        </button>
+        </a>
       </motion.div>
     </div>
   </section>

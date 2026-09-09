@@ -6,6 +6,7 @@ export interface Product {
   longDescription: string;
   features: string[];
   images?: string[];
+  hoverImage?: string;
   faq: { question: string; answer: string }[];
 }
 
@@ -69,7 +70,8 @@ export const products: Product[] = [
     description: "Premium candle packaging with custom die-cut inserts for secure product placement.",
     longDescription: "Our candle boxes with custom inserts provide the ultimate product protection and presentation. Die-cut inserts are precisely shaped to your candle dimensions, preventing movement and ensuring a premium unboxing experience.",
     features: ["Custom die-cut inserts", "Precise candle fit", "Premium presentation", "Multiple insert materials", "Full-color printing"],
-    images: ["/images/categories/candle_inserts_1.jpg", "/images/categories/candle_inserts_2.jpg", "/images/categories/candle_inserts_3.jpg", "/images/categories/candle_inserts_4.jpg", "/images/categories/candle_inserts_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Candle Boxes with Inserts/2948.png", "/images/categories/candle_inserts_1.jpg", "/images/categories/candle_inserts_2.jpg", "/images/categories/candle_inserts_3.jpg", "/images/categories/candle_inserts_4.jpg", "/images/categories/candle_inserts_5.jpg"],
+    hoverImage: "/images/By Industries 2/Canlde boxes/Candle Boxes with Inserts/6 (1).png",
     faq: [
       { question: "What materials are used for inserts?", answer: "We offer cardboard, foam, velvet, and corrugated insert options." },
     ],
@@ -81,7 +83,8 @@ export const products: Product[] = [
     description: "Candle boxes featuring die-cut windows to showcase your candles without opening the box.",
     longDescription: "Let your candles speak for themselves with our window candle boxes. Die-cut windows with clear PET film allow customers to see the candle color, texture, and design without opening the box, driving purchase decisions.",
     features: ["Die-cut window", "Clear PET film", "Multiple window shapes", "Product visibility", "Shelf appeal"],
-    images: ["/images/categories/candle_window_1.jpg", "/images/categories/candle_window_2.jpg", "/images/categories/candle_window_3.jpg", "/images/categories/candle_window_4.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Candle Boxes with Window/2.png", "/images/categories/candle_window_1.jpg", "/images/categories/candle_window_2.jpg", "/images/categories/candle_window_3.jpg", "/images/categories/candle_window_4.jpg"],
+    hoverImage: "/images/By Industries 2/Canlde boxes/Candle Boxes with Window/54.png",
     faq: [
       { question: "What window shapes are available?", answer: "We offer rectangular, round, oval, heart, and custom-shaped windows." },
     ],
@@ -93,7 +96,8 @@ export const products: Product[] = [
     description: "Custom dust covers for open-top candles to protect from debris and maintain fragrance.",
     longDescription: "Our candle dust covers protect open-top candles from dust and debris while helping to preserve the fragrance. Available in cardboard, acrylic-style, and kraft materials with custom branding options.",
     features: ["Dust and debris protection", "Fragrance preservation", "Custom branding", "Multiple materials", "Precise fit"],
-    images: ["/images/categories/candle_dust_1.jpg", "/images/categories/candle_dust_2.jpg", "/images/categories/candle_dust_3.jpg", "/images/categories/candle_dust_4.jpg", "/images/categories/candle_dust_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Candle Dust Covers/5.png", "/images/categories/candle_dust_1.jpg", "/images/categories/candle_dust_2.jpg", "/images/categories/candle_dust_3.jpg", "/images/categories/candle_dust_4.jpg", "/images/categories/candle_dust_5.jpg"],
+    hoverImage: "/images/By Industries 2/Canlde boxes/Candle Dust Covers/6.png",
     faq: [
       { question: "Do dust covers help preserve candle fragrance?", answer: "Yes, dust covers help seal in the fragrance and prevent the wax from collecting dust." },
     ],
@@ -105,7 +109,8 @@ export const products: Product[] = [
     description: "Durable shipping boxes specifically designed to protect candles during transit.",
     longDescription: "Our candle shipping boxes are engineered for maximum protection during transit. Made from sturdy corrugated material with custom inserts to prevent movement and breakage.",
     features: ["Corrugated material", "Custom inserts", "Shock protection", "Branded printing", "Multiple candle configurations"],
-    images: ["/images/categories/candle_shipping_1.jpg", "/images/categories/candle_shipping_2.jpg", "/images/categories/candle_shipping_3.jpg", "/images/categories/candle_shipping_4.jpg", "/images/categories/candle_shipping_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Candle Shipping Boxes/85.png", "/images/categories/candle_shipping_1.jpg", "/images/categories/candle_shipping_2.jpg", "/images/categories/candle_shipping_3.jpg", "/images/categories/candle_shipping_4.jpg", "/images/categories/candle_shipping_5.jpg"],
+    hoverImage: "/images/By Industries 2/Canlde boxes/Candle Shipping Boxes/6 (2).png",
     faq: [
       { question: "How many candles can one shipping box hold?", answer: "We can design boxes to hold anywhere from 1 to 12+ candles with custom divider inserts." },
     ],
@@ -129,7 +134,8 @@ export const products: Product[] = [
     description: "Eco-friendly kraft candle packaging with a natural, rustic aesthetic.",
     longDescription: "Our kraft candle boxes combine eco-friendliness with aesthetics. Made from 100% recyclable brown kraft material, these boxes appeal to environmentally conscious consumers.",
     features: ["100% recyclable kraft", "Natural rustic look", "Custom printing on kraft", "Window options", "Biodegradable"],
-    images: ["/images/categories/kraft_candle_1.jpg", "/images/categories/kraft_candle_2.jpg", "/images/categories/kraft_candle_3.jpg", "/images/categories/kraft_candle_4.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Kraft Candle Boxes/26.png", "/images/categories/kraft_candle_1.jpg", "/images/categories/kraft_candle_2.jpg", "/images/categories/kraft_candle_3.jpg", "/images/categories/kraft_candle_4.jpg"],
+    hoverImage: "/images/By Industries 2/Canlde boxes/Kraft Candle Boxes/dfv.png",
     faq: [
       { question: "Can kraft boxes be printed in full color?", answer: "Yes, we can print full-color designs on kraft material." },
     ],
@@ -141,7 +147,8 @@ export const products: Product[] = [
     description: "High-end luxury candle packaging with rigid construction, foil stamping, and premium finishes.",
     longDescription: "Our luxury candle boxes are crafted from rigid board with premium finishes including foil stamping, embossing, soft-touch lamination, and magnetic closures.",
     features: ["Rigid board construction", "Foil stamping", "Embossing/debossing", "Soft-touch lamination", "Magnetic closure"],
-    images: ["/images/categories/luxury_candle_1.jpg", "/images/categories/luxury_candle_2.jpg", "/images/categories/luxury_candle_3.jpg", "/images/categories/luxury_candle_4.jpg", "/images/categories/luxury_candle_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Luxury Candle Boxes/df.png", "/images/categories/luxury_candle_1.jpg", "/images/categories/luxury_candle_2.jpg", "/images/categories/luxury_candle_3.jpg", "/images/categories/luxury_candle_4.jpg", "/images/categories/luxury_candle_5.jpg"],
+    hoverImage: "/images/By Industries 2/Canlde boxes/Luxury Candle Boxes/ef.png",
     faq: [
       { question: "What makes these boxes 'luxury'?", answer: "Luxury boxes use thick rigid board, premium finishes like foil stamping and embossing, and feature magnetic or ribbon closures." },
     ],
@@ -153,7 +160,8 @@ export const products: Product[] = [
     description: "Sturdy pillar candle packaging designed to protect and showcase tall, cylindrical candles.",
     longDescription: "Our pillar candle boxes are specifically engineered to accommodate the height and weight of pillar candles. With reinforced bottoms and custom inserts, your candles arrive safely.",
     features: ["Reinforced bottom", "Custom height options", "Insert options", "Full-color printing", "Protective design"],
-    images: ["/images/categories/pillar_candle_1.jpg", "/images/categories/pillar_candle_2.jpg", "/images/categories/pillar_candle_3.jpg", "/images/categories/pillar_candle_4.jpg", "/images/categories/pillar_candle_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Pillar Candle Boxes/afdgv.png", "/images/categories/pillar_candle_1.jpg", "/images/categories/pillar_candle_2.jpg", "/images/categories/pillar_candle_3.jpg", "/images/categories/pillar_candle_4.jpg", "/images/categories/pillar_candle_5.jpg"],
+    hoverImage: "/images/By Industries 2/Canlde boxes/Pillar Candle Boxes/aergf.png",
     faq: [
       { question: "Can these boxes hold heavy pillar candles?", answer: "Yes, our pillar candle boxes feature reinforced bottoms designed to support the weight of large pillar candles." },
     ],
@@ -177,7 +185,8 @@ export const products: Product[] = [
     description: "Elongated packaging solutions designed for taper candles with secure holding mechanisms.",
     longDescription: "Our taper candle packaging is specifically designed for long, slender taper candles. With custom inserts and elongated box designs, your taper candles are protected from bending and breakage.",
     features: ["Elongated box design", "Anti-bend protection", "Custom taper inserts", "Elegant presentation", "Multiple candle count options"],
-    images: ["/images/categories/taper_candle_1.jpg", "/images/categories/taper_candle_2.jpg", "/images/categories/taper_candle_3.jpg", "/images/categories/taper_candle_4.jpg", "/images/categories/taper_candle_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Taper Candle Packaging/edsfvc.png", "/images/categories/taper_candle_1.jpg", "/images/categories/taper_candle_2.jpg", "/images/categories/taper_candle_3.jpg", "/images/categories/taper_candle_4.jpg", "/images/categories/taper_candle_5.jpg"],
+    hoverImage: "/images/By Industries 2/Canlde boxes/Taper Candle Packaging/SWBV.png",
     faq: [
       { question: "How many taper candles can one box hold?", answer: "We can design boxes for 2, 4, 6, or 12 taper candles with secure dividers." },
     ],
@@ -616,7 +625,8 @@ export const products: Product[] = [
     description: "Mylar bags with hang holes for retail display on hooks and pegboards.",
     longDescription: "Our hanging mylar bags feature reinforced hang holes for easy retail display on hooks and pegboards. Available with resealable closures and full-color custom printing for maximum shelf impact.",
     features: ["Reinforced hang holes", "Resealable closures", "Full-color printing", "Barrier protection", "Retail-ready"],
-    images: ["/images/categories/hanging_mylar_1.jpg", "/images/categories/hanging_mylar_2.jpg", "/images/categories/hanging_mylar_3.jpg", "/images/categories/hanging_mylar_4.jpg"],
+    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/hanging_mylar_1.jpg", "/images/categories/hanging_mylar_2.jpg", "/images/categories/hanging_mylar_3.jpg", "/images/categories/hanging_mylar_4.jpg"],
+    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
     faq: [
       { question: "Are hang holes reinforced?", answer: "Yes, all our hanging mylar bags feature reinforced hang holes to prevent tearing." },
     ],
@@ -628,7 +638,8 @@ export const products: Product[] = [
     description: "Kraft-front mylar bags combining natural aesthetics with barrier protection.",
     longDescription: "Our kraft mylar bags feature a natural kraft front with a foil-lined back for superior barrier protection. Perfect for organic, natural, and artisan products that need shelf appeal with product freshness.",
     features: ["Kraft front / foil back", "Barrier protection", "Resealable zip lock", "Window options", "Eco-friendly appearance"],
-    images: ["/images/categories/kraft_mylar_1.jpg", "/images/categories/kraft_mylar_2.jpg", "/images/categories/kraft_mylar_3.jpg", "/images/categories/kraft_mylar_4.jpg", "/images/categories/kraft_mylar_5.jpg"],
+    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/kraft_mylar_1.jpg", "/images/categories/kraft_mylar_2.jpg", "/images/categories/kraft_mylar_3.jpg", "/images/categories/kraft_mylar_4.jpg", "/images/categories/kraft_mylar_5.jpg"],
+    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
     faq: [
       { question: "Do kraft mylar bags offer the same protection as regular mylar?", answer: "Yes, the foil-lined back provides the same moisture, light, and oxygen barrier protection." },
     ],
@@ -640,7 +651,8 @@ export const products: Product[] = [
     description: "Resealable mylar bags with zip lock closures for easy open-and-close convenience.",
     longDescription: "Our resealable zip lock mylar bags offer convenience and freshness. Customers can easily open and reseal the bag multiple times while maintaining product freshness and barrier protection.",
     features: ["Zip lock closure", "Multiple reseal uses", "Barrier protection", "Custom printing", "Multiple sizes"],
-    images: ["/images/categories/resealable_zip_1.jpg", "/images/categories/resealable_zip_2.jpg", "/images/categories/resealable_zip_3.jpg", "/images/categories/resealable_zip_4.jpg"],
+    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/resealable_zip_1.jpg", "/images/categories/resealable_zip_2.jpg", "/images/categories/resealable_zip_3.jpg", "/images/categories/resealable_zip_4.jpg"],
+    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
     faq: [
       { question: "How many times can bags be resealed?", answer: "Our zip lock closures are designed for hundreds of open-and-close cycles." },
     ],
@@ -652,7 +664,8 @@ export const products: Product[] = [
     description: "Side gusset mylar bags with extra volume for bulkier products.",
     longDescription: "Our side gusset mylar bags expand to accommodate bulkier products while maintaining a slim profile on shelves. Ideal for coffee, tea, snacks, and other products that need extra volume.",
     features: ["Expandable side gussets", "Extra volume capacity", "Barrier protection", "Custom printing", "Shelf-stable profile"],
-    images: ["/images/categories/side_gusset_1.jpg", "/images/categories/side_gusset_2.jpg", "/images/categories/side_gusset_3.jpg", "/images/categories/side_gusset_4.jpg", "/images/categories/side_gusset_5.jpg"],
+    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/side_gusset_1.jpg", "/images/categories/side_gusset_2.jpg", "/images/categories/side_gusset_3.jpg", "/images/categories/side_gusset_4.jpg", "/images/categories/side_gusset_5.jpg"],
+    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
     faq: [
       { question: "What products are side gusset bags best for?", answer: "Side gusset bags are ideal for coffee, tea, granola, pet food, and other bulky items." },
     ],
@@ -664,7 +677,8 @@ export const products: Product[] = [
     description: "Stand-up pouches with bottom gussets for self-standing retail display.",
     longDescription: "Our stand-up mylar bags feature a bottom gusset that allows them to stand upright on shelves for maximum retail visibility. Available with resealable closures, tear notches, and full-color printing.",
     features: ["Self-standing design", "Bottom gusset", "Resealable closures", "Tear notches", "Full-color printing"],
-    images: ["/images/categories/standup_mylar_1.jpg", "/images/categories/standup_mylar_2.jpg", "/images/categories/standup_mylar_3.jpg", "/images/categories/standup_mylar_4.jpg"],
+    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/standup_mylar_1.jpg", "/images/categories/standup_mylar_2.jpg", "/images/categories/standup_mylar_3.jpg", "/images/categories/standup_mylar_4.jpg"],
+    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
     faq: [
       { question: "Do stand-up bags stay upright when partially full?", answer: "Yes, the bottom gusset design keeps bags standing upright even when partially full." },
     ],
@@ -676,7 +690,8 @@ export const products: Product[] = [
     description: "Mylar bags with clear windows to showcase product contents.",
     longDescription: "Our window mylar bags feature clear window panels that let customers see the product inside while maintaining barrier protection. Perfect for snacks, dried fruits, candy, and any product that sells visually.",
     features: ["Clear window panel", "Barrier protection maintained", "Product visibility", "Custom window shapes", "Resealable options"],
-    images: ["/images/categories/window_mylar_1.jpg", "/images/categories/window_mylar_2.jpg", "/images/categories/window_mylar_3.jpg", "/images/categories/window_mylar_4.jpg"],
+    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/window_mylar_1.jpg", "/images/categories/window_mylar_2.jpg", "/images/categories/window_mylar_3.jpg", "/images/categories/window_mylar_4.jpg"],
+    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
     faq: [
       { question: "Does the window affect barrier protection?", answer: "Our windows are made from food-grade clear film that maintains barrier protection while allowing product visibility." },
     ],

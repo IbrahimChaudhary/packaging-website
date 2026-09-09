@@ -17,6 +17,7 @@ import Testimonials from "@/components/Testimonials";
 import { ChevronRight, Package } from "lucide-react";
 import ThemedFAQ from "./ThemedFAQ";
 import SocialProofBar from "../SocialProofBar";
+import HoverImage from "@/components/HoverImage";
 
 interface Props {
   category: Category;
@@ -197,6 +198,7 @@ const CategoryPageTemplate = ({ category }: Props) => {
             {category.subProducts.map((sub) => {
               const product = products.find((p) => p.slug === sub.slug);
               const thumbImage = product?.images?.[0];
+              const hoverImage = product?.hoverImage;
               return (
                 <Link
                   key={sub.slug}
@@ -207,10 +209,10 @@ const CategoryPageTemplate = ({ category }: Props) => {
                     className={`aspect-[4/3] ${thumbImage ? "" : `bg-gradient-to-br ${category.gradient}`} flex items-center justify-center overflow-hidden`}
                   >
                     {thumbImage ? (
-                      <img
+                      <HoverImage
                         src={thumbImage}
+                        hoverSrc={hoverImage}
                         alt={sub.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                       />
                     ) : (
                       <Package className="h-16 w-16 text-white/60 group-hover:scale-110 transition-transform" />
