@@ -16,6 +16,7 @@ import TrustBadges from "./TrustBadges";
 import Testimonials from "@/components/Testimonials";
 import { ChevronRight, Package } from "lucide-react";
 import ThemedFAQ from "./ThemedFAQ";
+import SocialProofBar from "../SocialProofBar";
 
 interface Props {
   category: Category;
@@ -55,7 +56,7 @@ const CategoryPageTemplate = ({ category }: Props) => {
 
   return (
     <div>
-      {/* Breadcrumb */}
+            {/* Breadcrumb */}
       <div className="bg-muted/40 border-b border-border">
         <div className="container mx-auto px-4 py-3">
           <nav className="flex items-center gap-1.5 text-sm text-muted-foreground">
@@ -67,6 +68,10 @@ const CategoryPageTemplate = ({ category }: Props) => {
           </nav>
         </div>
       </div>
+
+     
+
+    
 
       {/* Hero - 2-column layout */}
       <section className="py-10 bg-background">
@@ -85,24 +90,33 @@ const CategoryPageTemplate = ({ category }: Props) => {
                     />
                   </div>
                   <div className="flex gap-2 flex-wrap">
-                    {images.map((img, i) => (
-                      <button
-                        key={i}
-                        onClick={() => handleThumbnailClick(i)}
-                        className={`rounded-xl overflow-hidden border-2 transition-all w-20 h-20 ${
-                          i === activeIndex
-                            ? "border-primary shadow-md"
-                            : "border-border hover:border-primary/50"
-                        }`}
-                      >
-                        <img
-                          src={img}
-                          alt={`Thumbnail ${i + 1}`}
-                          className="w-full h-full object-cover"
-                        />
-                      </button>
-                    ))}
-                  </div>
+  {images.map((img, i) => (
+    <button
+      key={i}
+      onClick={() => handleThumbnailClick(i)}
+      className="flex flex-col items-center gap-1.5"
+    >
+      <div
+        className={`rounded-xl overflow-hidden border-2 transition-all w-20 h-20 ${
+          i === activeIndex
+            ? "border-primary shadow-md"
+            : "border-border hover:border-primary/50"
+        }`}
+      >
+        <img
+          src={img}
+          alt={`Thumbnail ${i + 1}`}
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <span
+        className={`h-1 rounded-full transition-all duration-300 ${
+          i === activeIndex ? "w-8 bg-primary" : "w-0 bg-transparent"
+        }`}
+      />
+    </button>
+  ))}
+</div>
                 </>
               ) : (
                 <div
@@ -159,7 +173,7 @@ const CategoryPageTemplate = ({ category }: Props) => {
           </div>
         </div>
       </section>
-
+     <SocialProofBar />
       {/* Trust Badges */}
       <section className="py-8 bg-muted/20 border-y border-border">
         <div className="container mx-auto px-4">
