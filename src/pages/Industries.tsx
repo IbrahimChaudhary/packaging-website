@@ -15,7 +15,7 @@ const Industries = () => (
             Key Takeaway
           </span>
           <p className="text-sm md:text-base leading-relaxed text-foreground/90">
-            Custom box shapes and styles from <strong>Custom Packaging Line</strong> start at a highly accessible minimum order of just 50 units (100+ for specialty rigid styles). Every order is precision-crafted to your exact dimensions and vibrantly printed with your custom artwork. We provide complimentary design assistance and a digital proof for your approval before manufacturing begins. Standard production takes approximately 7 business days, plus 2 to 5 business days for delivery. Need it faster? Rush production is available on most styles for a minor premium. Reach out today or request a quote online to get started.
+            Half Price Packaging possesses extensive expertise in delivering personalized packaging solutions to over 3000 businesses across the globe. Below, you will find a carefully curated selection of packaging solutions designed to cater to various ind
           </p>
         </div>
       </div>
