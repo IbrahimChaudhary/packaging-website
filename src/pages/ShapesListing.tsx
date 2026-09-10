@@ -7,10 +7,9 @@ const ShapesListing = () => (
     <section className="bg-gradient-to-br from-primary to-primary/80 py-16 md:py-24">
       <div className="container mx-auto px-4 text-center text-primary-foreground">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Shapes & Styles</h1>
-        <p className="text-lg text-white/90 max-w-2xl mx-auto mb-10">
+        {/*<p className="text-lg text-white/90 max-w-2xl mx-auto mb-10">
           Choose from a wide range of box shapes and styles to perfectly showcase your products.
-        </p>
-
+        </p>*/}
         {/* Key Takeaway Box */}
         <div className="mx-auto max-w-4xl bg-card text-card-foreground rounded-r-xl border-l-4 border-l-yellow-500 p-6 md:p-8 shadow-2xl text-left ">
           <span className="block text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">
