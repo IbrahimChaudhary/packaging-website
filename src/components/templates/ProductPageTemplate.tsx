@@ -183,7 +183,8 @@ const ProductPageTemplate = ({ product }: Props) => {
           <TrustBadges />
         </div>
       </section>
-
+       {/* FAQ */}
+      <ThemedFAQ faq={product.faq} />
       <BrandLogos />
 
       {/* Related products grid */}
@@ -244,8 +245,7 @@ const ProductPageTemplate = ({ product }: Props) => {
       <BrowseCategoriesGrid />
       <Testimonials />
 
-      {/* FAQ */}
-      <ThemedFAQ faq={product.faq} />
+     
     </div>
   );
 };

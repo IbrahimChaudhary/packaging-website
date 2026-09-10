@@ -182,6 +182,9 @@ const CategoryPageTemplate = ({ category }: Props) => {
         </div>
       </section>
 
+      {/* FAQ */}
+      <ThemedFAQ faq={category.faq} />
+
       <BrandLogos />
 
       {/* Sub-products grid */}
@@ -237,8 +240,7 @@ const CategoryPageTemplate = ({ category }: Props) => {
       <BrowseCategoriesGrid />
       <Testimonials />
 
-      {/* FAQ */}
-      <ThemedFAQ faq={category.faq} />
+      
     </div>
   );
 };

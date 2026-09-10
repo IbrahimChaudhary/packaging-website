@@ -31,9 +31,9 @@ const features = [
 const FeaturesRow = () => (
   <section className="py-16 bg-[#fbf9f2]">
     <div className="container mx-auto px-4">
-      <h2 className="text-2xl md:text-4xl font-black text-center text-[#1f5c4a]">
+      <h2 className="text-2xl md:text-4xl font-black text-center text-[#32936F]">
         Why Brands Choose Us for{" "}
-        <span className="text-[#e8b923]">Premium Custom Packaging</span>
+        <span className="text-[#FFC107]">Premium Custom Packaging</span>
       </h2>
 
       <div className="w-16 h-[3px] bg-[#e8b923] mx-auto mt-4 mb-12 rounded-full" />
