@@ -57,7 +57,7 @@ const ThemedFAQ = ({ faq = [] }: { faq?: FAQItem[] }) => {
                 <AccordionTrigger className="text-left font-semibold text-white hover:no-underline [&>svg]:text-[#FFC107]">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-[#FFC107] leading-relaxed">
+                <AccordionContent className="bg-[#FFC107] text-white rounded-xl p-4 leading-relaxed">
                   {item.answer}
                 </AccordionContent>
               </AccordionItem>

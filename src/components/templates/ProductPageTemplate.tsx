@@ -16,6 +16,7 @@ import BrowseCategoriesGrid from "./BrowseCategoriesGrid";
 import NewPackagingInfoTabs from "./NewPackagingInfoTabs";
 import ThemedFAQ from "./ThemedFAQ";
 import Testimonials from "@/components/Testimonials";
+import HoverImage from "@/components/HoverImage";
 import { ChevronRight, Package, CheckCircle } from "lucide-react";
 
 interface Props {
@@ -182,7 +183,8 @@ const ProductPageTemplate = ({ product }: Props) => {
           <TrustBadges />
         </div>
       </section>
-
+       {/* FAQ */}
+      <ThemedFAQ faq={product.faq} />
       <BrandLogos />
 
       {/* Related products grid */}
@@ -200,6 +202,7 @@ const ProductPageTemplate = ({ product }: Props) => {
               {category.subProducts.map((sub) => {
                 const sibling = products.find((p) => p.slug === sub.slug);
                 const thumbImage = sibling?.images?.[0];
+                const hoverImage = sibling?.hoverImage;
                 const isCurrent = sub.slug === product.slug;
                 return (
                   <Link
@@ -213,10 +216,10 @@ const ProductPageTemplate = ({ product }: Props) => {
                       className={`aspect-[4/3] ${thumbImage ? "" : `bg-gradient-to-br ${category.gradient}`} flex items-center justify-center overflow-hidden`}
                     >
                       {thumbImage ? (
-                        <img
+                        <HoverImage
                           src={thumbImage}
+                          hoverSrc={hoverImage}
                           alt={sub.name}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                         />
                       ) : (
                         <Package className="h-16 w-16 text-white/60 group-hover:scale-110 transition-transform" />
@@ -242,8 +245,7 @@ const ProductPageTemplate = ({ product }: Props) => {
       <BrowseCategoriesGrid />
       <Testimonials />
 
-      {/* FAQ */}
-      <ThemedFAQ faq={product.faq} />
+     
     </div>
   );
 };

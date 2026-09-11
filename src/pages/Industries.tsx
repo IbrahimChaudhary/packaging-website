@@ -6,9 +6,18 @@ const Industries = () => (
     <section className="bg-gradient-to-br from-primary to-primary/80 py-16">
       <div className="container mx-auto px-4 text-center text-primary-foreground">
         <h1 className="text-4xl font-bold mb-4">Industries We Serve</h1>
-        <p className="text-lg text-white/80 max-w-2xl mx-auto">
+        {/*<p className="text-lg text-white/80 max-w-2xl mx-auto">
           Custom packaging solutions for every industry. From food to fashion, cosmetics to cannabis, we've got you covered.
-        </p>
+        </p>*/}
+        {/* Key Takeaway Box */}
+        <div className="mx-auto max-w-4xl bg-card text-card-foreground rounded-r-xl border-l-4 border-l-yellow-500 p-6 md:p-8 shadow-2xl text-left ">
+          <span className="block text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">
+            Key Takeaway
+          </span>
+          <p className="text-sm md:text-base leading-relaxed text-foreground/90">
+            Half Price Packaging possesses extensive expertise in delivering personalized packaging solutions to over 3000 businesses across the globe. Below, you will find a carefully curated selection of packaging solutions designed to cater to various ind
+          </p>
+        </div>
       </div>
     </section>
 

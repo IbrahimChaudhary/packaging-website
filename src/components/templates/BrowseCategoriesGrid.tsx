@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Package, ArrowRight } from "lucide-react";
 import { categories } from "@/data/categories";
 import { useNavigate, useLocation } from "react-router-dom";
+import HoverImage from "@/components/HoverImage";
 
 const BrowseCategoriesGrid = () => {
   const location = useLocation();
@@ -36,6 +37,7 @@ const BrowseCategoriesGrid = () => {
           {categories.map((cat) => {
             const Icon = cat.icon;
             const thumbImage = cat.images?.[0];
+            const hoverImage = cat.hoverImage;
             return (
               <Link
                 key={cat.slug}
@@ -48,18 +50,19 @@ const BrowseCategoriesGrid = () => {
                   } flex items-center justify-center overflow-hidden`}
                 >
                   {thumbImage ? (
-                    <img
+                    <HoverImage
                       src={thumbImage}
+                      hoverSrc={hoverImage}
                       alt={cat.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   ) : (
                     <Icon className="h-16 w-16 text-white/60 group-hover:scale-110 transition-transform" />
                   )}
 
-                  {/* Hover Overlay */}
-                  <div
-                    className="
+                  {/* Hover Overlay (hidden for cards that swap to an open box image) */}
+                  {!hoverImage && (
+                    <div
+                      className="
                             absolute inset-0
                             bg-[#3F9472]
                             flex items-center justify-center
@@ -67,26 +70,27 @@ const BrowseCategoriesGrid = () => {
                             group-hover:opacity-95
                             transition-all duration-300
                           "
-                  >
-                  <Link to={`/product-category/${cat.slug}`}>
-                     <button
-                    
-                      className="
-                      px-5 py-2.5
-                      bg-white
-                      text-green-700
-                      font-semibold
-                      rounded-full
-                      shadow-lg
-                      hover:scale-105
-                      transition-transform
-                    "
                     >
-                      Get a Quote
-                    </button>
-                  </Link>
+                    <Link to={`/product-category/${cat.slug}`}>
+                      <button
                     
-                  </div>
+                        className="
+                        px-5 py-2.5
+                        bg-white
+                        text-green-700
+                        font-semibold
+                        rounded-full
+                        shadow-lg
+                        hover:scale-105
+                        transition-transform
+                      "
+                      >
+                        Get a Quote
+                      </button>
+                    </Link>
+                      
+                    </div>
+                  )}
                 </div>
                 <div className="p-4">
                   <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">

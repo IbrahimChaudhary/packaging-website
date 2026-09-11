@@ -16,7 +16,7 @@ const Index = () => (
     <StatsBar />
     {/* <FinishingSection /> */}
     <ContentSections />
-
+     <Testimonials />
     {/* Quote + FAQ side by side */}
     <section id="quote" className="py-20 bg-muted">
       <div className="container mx-auto px-4 max-w-6xl">
@@ -42,7 +42,7 @@ const Index = () => (
       </div>
     </section>
 
-    <Testimonials />
+   
   </>
 );
 

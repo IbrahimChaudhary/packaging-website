@@ -15,6 +15,7 @@ import {
   Paintbrush,
   ChevronRight,
 } from "lucide-react";
+import HoverImage from "@/components/HoverImage";
 
 const features = [
   {
@@ -212,6 +213,7 @@ const CustomBoxes = () => {
             {categories.slice(0, 8).map((category) => {
               const Icon = category.icon;
               const thumbImage = category.images?.[0];
+              const hoverImage = category.hoverImage;
               return (
                 <Link
                   key={category.slug}
@@ -222,10 +224,10 @@ const CustomBoxes = () => {
                     className={`aspect-[4/3] ${thumbImage ? "" : `bg-gradient-to-br ${category.gradient}`} flex items-center justify-center overflow-hidden`}
                   >
                     {thumbImage ? (
-                      <img
+                      <HoverImage
                         src={thumbImage}
+                        hoverSrc={hoverImage}
                         alt={category.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                       />
                     ) : (
                       <Icon className="h-12 w-12 text-white/40 group-hover:scale-110 transition-transform" />
