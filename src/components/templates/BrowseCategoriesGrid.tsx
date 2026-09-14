@@ -24,10 +24,10 @@ const BrowseCategoriesGrid = () => {
   };
 
   return (
-    <section id="products" className="py-16 bg-muted/30">
+    <section id="products" className="py-16 bg-[#FBF7ED]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-3">
-          Browse Other Categories
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-black leading-tight text-center text-[#3F9472] mb-3">
+          From any Industry to any Packaging 
         </h2>
         <p className="text-muted-foreground text-center mb-10 max-w-2xl mx-auto">
           Explore our complete range of custom packaging solutions tailored to
@@ -42,7 +42,7 @@ const BrowseCategoriesGrid = () => {
               <Link
                 key={cat.slug}
                 to={`/product-category/${cat.slug}`}
-                className="group border border-border rounded-2xl overflow-hidden bg-card hover:shadow-xl transition-all"
+                className="group border border-[#FBF7ED] rounded-2xl overflow-hidden bg-card hover:shadow-xl transition-all"
               >
                 <div
                   className={`relative aspect-[4/3] ${
@@ -108,7 +108,7 @@ const BrowseCategoriesGrid = () => {
           {customCategoryHidden ? null : (
             <Link
               to="/custom-boxes"
-              className="group border border-border rounded-2xl overflow-hidden hover:shadow-xl transition-all"
+              className="group border border-[#FBF7ED] rounded-2xl overflow-hidden hover:shadow-xl transition-all"
             >
               <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-primary to-primary/70 flex flex-col items-center justify-center text-primary-foreground">
                 <Package className="h-14 w-14 mb-2 opacity-80" />

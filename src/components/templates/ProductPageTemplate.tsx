@@ -18,6 +18,7 @@ import ThemedFAQ from "./ThemedFAQ";
 import Testimonials from "@/components/Testimonials";
 import HoverImage from "@/components/HoverImage";
 import { ChevronRight, Package, CheckCircle } from "lucide-react";
+import SocialProofBar from "../SocialProofBar";
 
 interface Props {
   product: Product;
@@ -130,6 +131,12 @@ const ProductPageTemplate = ({ product }: Props) => {
                   <span className="text-xs min-w-fit font-semibold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
                     In Stock
                   </span>
+                  <span className="text-xs min-w-fit font-semibold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
+                    Starting from 0.5 $
+                  </span>
+                  <span className="text-xs min-w-fit font-semibold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
+                    Low MOQ
+                  </span>
                 </div>
               </div>
 
@@ -176,16 +183,15 @@ const ProductPageTemplate = ({ product }: Props) => {
           </div>
         </div>
       </section>
-
+      <SocialProofBar />
       {/* Trust Badges */}
       <section className="py-8 bg-muted/20 border-y border-border">
         <div className="container mx-auto px-4">
           <TrustBadges />
         </div>
       </section>
-       {/* FAQ */}
-      <ThemedFAQ faq={product.faq} />
-      <BrandLogos />
+       
+     
 
       {/* Related products grid */}
       {category && category.subProducts.length > 0 && (
@@ -242,8 +248,9 @@ const ProductPageTemplate = ({ product }: Props) => {
       )}
 
       <NewPackagingInfoTabs />
-      <BrowseCategoriesGrid />
-      <Testimonials />
+    
+      {/* FAQ */}
+      <ThemedFAQ faq={product.faq} />
 
      
     </div>

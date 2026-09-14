@@ -11,8 +11,8 @@ import BrowseCategoriesGrid from "@/components/templates/BrowseCategoriesGrid";
 const Index = () => (
   <>
     <HeroSection />
-    <FeaturesRow />
     <BrowseCategoriesGrid />
+    <FeaturesRow />
     <StatsBar />
     {/* <FinishingSection /> */}
     <ContentSections />

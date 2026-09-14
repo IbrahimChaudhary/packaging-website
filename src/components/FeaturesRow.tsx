@@ -29,7 +29,7 @@ const features = [
 ];
 
 const FeaturesRow = () => (
-  <section className="py-16 bg-[#fbf9f2]">
+  <section className="py-16 bg-[#FBF7ED]">
     <div className="container mx-auto px-4">
       <h2 className="text-2xl md:text-4xl font-black text-center text-[#32936F]">
         Why Brands Choose Us for{" "}

@@ -15,7 +15,7 @@ const Industries = () => (
             Key Takeaway
           </span>
           <p className="text-sm md:text-base leading-relaxed text-foreground/90">
-            Half Price Packaging possesses extensive expertise in delivering personalized packaging solutions to over 3000 businesses across the globe. Below, you will find a carefully curated selection of packaging solutions designed to cater to various ind
+            Custom Packaging Line possesses extensive expertise in delivering personalized packaging solutions to over 3000 businesses across the globe. Below, you will find a carefully curated selection of packaging solutions designed to cater to various ind
           </p>
         </div>
       </div>
