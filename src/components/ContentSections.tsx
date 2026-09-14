@@ -25,7 +25,7 @@ const steps: Step[] = [
 ];
 
 const ContentSections = () => (
-  <section className="py-20 bg-[#fbf3de] overflow-hidden">
+  <section className="py-20 bg-[#FBF7ED] overflow-hidden">
     <div className="container mx-auto px-4 max-w-6xl">
       <motion.div
         className="text-center mb-14"
