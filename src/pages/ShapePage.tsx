@@ -8,6 +8,7 @@ import BrowseCategoriesGrid from "@/components/templates/BrowseCategoriesGrid";
 import NewPackagingInfoTabs from "@/components/templates/NewPackagingInfoTabs";
 import Testimonials from "@/components/Testimonials";
 import { ChevronRight } from "lucide-react";
+import SocialProofBar from "@/components/SocialProofBar";
 
 const ShapePage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -100,6 +101,12 @@ const ShapePage = () => {
                   <span className="text-xs font-semibold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
                     In Stock
                   </span>
+                    <span className="text-xs min-w-fit font-semibold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
+                    Starting from 0.5 $
+                  </span>
+                  <span className="text-xs min-w-fit font-semibold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
+                    Low MOQ
+                  </span>
                 </div>
               </div>
 
@@ -125,7 +132,7 @@ const ShapePage = () => {
           </div>
         </div>
       </section>
-
+       <SocialProofBar />
       {/* Trust Badges */}
       <section className="py-8 bg-muted/20 border-y border-border">
         <div className="container mx-auto px-4">
@@ -133,11 +140,10 @@ const ShapePage = () => {
         </div>
       </section>
 
-      <BrandLogos />
+      
 
       <NewPackagingInfoTabs />
-      <BrowseCategoriesGrid />
-      <Testimonials />
+      
     </div>
   );
 };

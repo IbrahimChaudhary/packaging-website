@@ -103,38 +103,11 @@ const StatsBar = () => (
       </header>
 
       {/* Premium Bento Box Image Gallery */}
-      <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-3 md:gap-4 lg:gap-6 h-[500px] md:h-[600px]">
-        
-        {/* Large Feature Image (Spans 2 columns & 2 rows on desktop) */}
-        <figure className="relative md:col-span-2 md:row-span-2 overflow-hidden rounded-3xl group shadow-sm border border-border/40">
-          <img
-            src={productImages[0].src}
-            alt={productImages[0].alt}
-            className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
-            loading="lazy"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-        </figure>
-
-        {/* Small Images */}
-        {productImages.slice(1).map((image, i) => (
-          <figure 
-            key={i} 
-            className="hidden md:block relative overflow-hidden rounded-2xl group shadow-sm border border-border/40"
-          >
-            <img
-              src={image.src}
-              alt={image.alt}
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-              loading="lazy"
-            />
-          </figure>
-        ))}
-      </div>
+      
 
       {/* Mobile Image Fallback Carousel */}
       <div className="flex md:hidden gap-4 overflow-x-auto pb-6 snap-x snap-mandatory scrollbar-hide -mt-24 relative z-10 px-4 -mx-4">
-        {productImages.slice(1).map((image, i) => (
+        {/**productImages.slice(1).map((image, i) => (
           <figure key={i} className="h-48 w-[70%] flex-shrink-0 snap-center overflow-hidden rounded-2xl shadow-md border border-border/40">
             <img
               src={image.src}
@@ -143,7 +116,7 @@ const StatsBar = () => (
               loading="lazy"
             />
           </figure>
-        ))}
+        ))*/}
       </div>
 
       {/* Editorial SEO Content */}

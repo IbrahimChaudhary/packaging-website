@@ -346,18 +346,18 @@ const Footer = () => {
 
           <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
             {[
-              { src: uspsLogo, alt: "USPS", href: "https://www.usps.com/" },
-              { src: dhlLogo, alt: "DHL", href: "https://www.dhl.com/" },
-              { src: fedexLogo, alt: "FedEx", href: "https://www.fedex.com/" },
+              { src: uspsLogo, alt: "USPS", href: "" },
+              { src: dhlLogo, alt: "DHL", href: "" },
+              { src: fedexLogo, alt: "FedEx", href: "" },
               {
                 src: "/images/logos/ups.svg",
                 alt: "UPS",
-                href: "https://www.ups.com/",
+                href: "",
               },
             ].map((logo) => (
               <a
                 key={logo.alt}
-                href={logo.href}
+               
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={logo.alt}

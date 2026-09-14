@@ -138,6 +138,12 @@ const CategoryPageTemplate = ({ category }: Props) => {
                   <span className="text-xs font-semibold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
                     In Stock
                   </span>
+                   <span className="text-xs min-w-fit font-semibold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
+                    Starting from 0.5 $
+                  </span>
+                  <span className="text-xs min-w-fit font-semibold bg-accent text-accent-foreground px-2.5 py-1 rounded-full">
+                    Low MOQ
+                  </span>
                 </div>
               </div>
 
@@ -182,10 +188,9 @@ const CategoryPageTemplate = ({ category }: Props) => {
         </div>
       </section>
 
-      {/* FAQ */}
-      <ThemedFAQ faq={category.faq} />
+     
 
-      <BrandLogos />
+      
 
       {/* Sub-products grid */}
       <section className="py-16">
@@ -237,8 +242,10 @@ const CategoryPageTemplate = ({ category }: Props) => {
       </section>
 
       <NewPackagingInfoTabs />
-      <BrowseCategoriesGrid />
-      <Testimonials />
+      
+     
+       {/* FAQ */}
+      <ThemedFAQ faq={category.faq} />
 
       
     </div>
