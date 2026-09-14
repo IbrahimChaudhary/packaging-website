@@ -70,7 +70,7 @@ export const products: Product[] = [
     description: "Premium candle packaging with custom die-cut inserts for secure product placement.",
     longDescription: "Our candle boxes with custom inserts provide the ultimate product protection and presentation. Die-cut inserts are precisely shaped to your candle dimensions, preventing movement and ensuring a premium unboxing experience.",
     features: ["Custom die-cut inserts", "Precise candle fit", "Premium presentation", "Multiple insert materials", "Full-color printing"],
-    images: ["/images/By Industries 2/Canlde boxes/Candle Boxes with Inserts/2948.png", "/images/categories/candle_inserts_1.jpg", "/images/categories/candle_inserts_2.jpg", "/images/categories/candle_inserts_3.jpg", "/images/categories/candle_inserts_4.jpg", "/images/categories/candle_inserts_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Candle Boxes with Inserts/2948.png", "/images/categories/candle_inserts_1.jpg", "/images/categories/candle_inserts_2.jpg"],
     hoverImage: "/images/By Industries 2/Canlde boxes/Candle Boxes with Inserts/6 (1).png",
     faq: [
       { question: "What materials are used for inserts?", answer: "We offer cardboard, foam, velvet, and corrugated insert options." },
@@ -83,7 +83,9 @@ export const products: Product[] = [
     description: "Candle boxes featuring die-cut windows to showcase your candles without opening the box.",
     longDescription: "Let your candles speak for themselves with our window candle boxes. Die-cut windows with clear PET film allow customers to see the candle color, texture, and design without opening the box, driving purchase decisions.",
     features: ["Die-cut window", "Clear PET film", "Multiple window shapes", "Product visibility", "Shelf appeal"],
-    images: ["/images/By Industries 2/Canlde boxes/Candle Boxes with Window/2.png", "/images/categories/candle_window_1.jpg", "/images/categories/candle_window_2.jpg", "/images/categories/candle_window_3.jpg", "/images/categories/candle_window_4.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Candle Boxes with Window/2.png", "/images/categories/candle_window_1.jpg", "/images/categories/candle_window_2.jpg",
+
+    ],
     hoverImage: "/images/By Industries 2/Canlde boxes/Candle Boxes with Window/54.png",
     faq: [
       { question: "What window shapes are available?", answer: "We offer rectangular, round, oval, heart, and custom-shaped windows." },
@@ -96,7 +98,7 @@ export const products: Product[] = [
     description: "Custom dust covers for open-top candles to protect from debris and maintain fragrance.",
     longDescription: "Our candle dust covers protect open-top candles from dust and debris while helping to preserve the fragrance. Available in cardboard, acrylic-style, and kraft materials with custom branding options.",
     features: ["Dust and debris protection", "Fragrance preservation", "Custom branding", "Multiple materials", "Precise fit"],
-    images: ["/images/By Industries 2/Canlde boxes/Candle Dust Covers/5.png", "/images/categories/candle_dust_1.jpg", "/images/categories/candle_dust_2.jpg", "/images/categories/candle_dust_3.jpg", "/images/categories/candle_dust_4.jpg", "/images/categories/candle_dust_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Candle Dust Covers/5.png", "/images/categories/candle_dust_1.jpg", ],
     hoverImage: "/images/By Industries 2/Canlde boxes/Candle Dust Covers/6.png",
     faq: [
       { question: "Do dust covers help preserve candle fragrance?", answer: "Yes, dust covers help seal in the fragrance and prevent the wax from collecting dust." },
@@ -109,7 +111,7 @@ export const products: Product[] = [
     description: "Durable shipping boxes specifically designed to protect candles during transit.",
     longDescription: "Our candle shipping boxes are engineered for maximum protection during transit. Made from sturdy corrugated material with custom inserts to prevent movement and breakage.",
     features: ["Corrugated material", "Custom inserts", "Shock protection", "Branded printing", "Multiple candle configurations"],
-    images: ["/images/By Industries 2/Canlde boxes/Candle Shipping Boxes/85.png", "/images/categories/candle_shipping_1.jpg", "/images/categories/candle_shipping_2.jpg", "/images/categories/candle_shipping_3.jpg", "/images/categories/candle_shipping_4.jpg", "/images/categories/candle_shipping_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Candle Shipping Boxes/85.png", "/images/categories/candle_shipping_1.jpg", , "/images/categories/candle_shipping_4.jpg", "/images/categories/candle_shipping_5.jpg"],
     hoverImage: "/images/By Industries 2/Canlde boxes/Candle Shipping Boxes/6 (2).png",
     faq: [
       { question: "How many candles can one shipping box hold?", answer: "We can design boxes to hold anywhere from 1 to 12+ candles with custom divider inserts." },
@@ -134,7 +136,7 @@ export const products: Product[] = [
     description: "Eco-friendly kraft candle packaging with a natural, rustic aesthetic.",
     longDescription: "Our kraft candle boxes combine eco-friendliness with aesthetics. Made from 100% recyclable brown kraft material, these boxes appeal to environmentally conscious consumers.",
     features: ["100% recyclable kraft", "Natural rustic look", "Custom printing on kraft", "Window options", "Biodegradable"],
-    images: ["/images/By Industries 2/Canlde boxes/Kraft Candle Boxes/26.png", "/images/categories/kraft_candle_1.jpg", "/images/categories/kraft_candle_2.jpg", "/images/categories/kraft_candle_3.jpg", "/images/categories/kraft_candle_4.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Kraft Candle Boxes/26.png", "/images/categories/kraft_candle_1.jpg", "/images/categories/kraft_candle_2.jpg"],
     hoverImage: "/images/By Industries 2/Canlde boxes/Kraft Candle Boxes/dfv.png",
     faq: [
       { question: "Can kraft boxes be printed in full color?", answer: "Yes, we can print full-color designs on kraft material." },
@@ -147,7 +149,7 @@ export const products: Product[] = [
     description: "High-end luxury candle packaging with rigid construction, foil stamping, and premium finishes.",
     longDescription: "Our luxury candle boxes are crafted from rigid board with premium finishes including foil stamping, embossing, soft-touch lamination, and magnetic closures.",
     features: ["Rigid board construction", "Foil stamping", "Embossing/debossing", "Soft-touch lamination", "Magnetic closure"],
-    images: ["/images/By Industries 2/Canlde boxes/Luxury Candle Boxes/df.png", "/images/categories/luxury_candle_1.jpg", "/images/categories/luxury_candle_2.jpg", "/images/categories/luxury_candle_3.jpg", "/images/categories/luxury_candle_4.jpg", "/images/categories/luxury_candle_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Luxury Candle Boxes/df.png", "/images/categories/luxury_candle_2.jpg", "/images/categories/luxury_candle_5.jpg"],
     hoverImage: "/images/By Industries 2/Canlde boxes/Luxury Candle Boxes/ef.png",
     faq: [
       { question: "What makes these boxes 'luxury'?", answer: "Luxury boxes use thick rigid board, premium finishes like foil stamping and embossing, and feature magnetic or ribbon closures." },
@@ -160,7 +162,7 @@ export const products: Product[] = [
     description: "Sturdy pillar candle packaging designed to protect and showcase tall, cylindrical candles.",
     longDescription: "Our pillar candle boxes are specifically engineered to accommodate the height and weight of pillar candles. With reinforced bottoms and custom inserts, your candles arrive safely.",
     features: ["Reinforced bottom", "Custom height options", "Insert options", "Full-color printing", "Protective design"],
-    images: ["/images/By Industries 2/Canlde boxes/Pillar Candle Boxes/afdgv.png", "/images/categories/pillar_candle_1.jpg", "/images/categories/pillar_candle_2.jpg", "/images/categories/pillar_candle_3.jpg", "/images/categories/pillar_candle_4.jpg", "/images/categories/pillar_candle_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Pillar Candle Boxes/afdgv.png", "/images/categories/pillar_candle_1.jpg", "/images/categories/pillar_candle_2.jpg",],
     hoverImage: "/images/By Industries 2/Canlde boxes/Pillar Candle Boxes/aergf.png",
     faq: [
       { question: "Can these boxes hold heavy pillar candles?", answer: "Yes, our pillar candle boxes feature reinforced bottoms designed to support the weight of large pillar candles." },
@@ -185,7 +187,7 @@ export const products: Product[] = [
     description: "Elongated packaging solutions designed for taper candles with secure holding mechanisms.",
     longDescription: "Our taper candle packaging is specifically designed for long, slender taper candles. With custom inserts and elongated box designs, your taper candles are protected from bending and breakage.",
     features: ["Elongated box design", "Anti-bend protection", "Custom taper inserts", "Elegant presentation", "Multiple candle count options"],
-    images: ["/images/By Industries 2/Canlde boxes/Taper Candle Packaging/edsfvc.png", "/images/categories/taper_candle_1.jpg", "/images/categories/taper_candle_2.jpg", "/images/categories/taper_candle_3.jpg", "/images/categories/taper_candle_4.jpg", "/images/categories/taper_candle_5.jpg"],
+    images: ["/images/By Industries 2/Canlde boxes/Taper Candle Packaging/edsfvc.png", "/images/categories/taper_candle_1.jpg", "/images/categories/taper_candle_4.jpg",],
     hoverImage: "/images/By Industries 2/Canlde boxes/Taper Candle Packaging/SWBV.png",
     faq: [
       { question: "How many taper candles can one box hold?", answer: "We can design boxes for 2, 4, 6, or 12 taper candles with secure dividers." },
