@@ -95,7 +95,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/4.png",
       "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/2.png",
+    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/2.png",
+
     faq: [
       { question: "What materials are used for inserts?", answer: "We offer cardboard, foam, velvet, and corrugated insert options." },
     ],
@@ -114,7 +115,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/4.png",
       "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/2.png",
+    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/2.png",
+
     faq: [
       { question: "What window shapes are available?", answer: "We offer rectangular, round, oval, heart, and custom-shaped windows." },
     ],
@@ -133,7 +135,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Canlde boxes/Candle Dust Covers/926.png",
       "/images/By Industries 3/Canlde boxes/Candle Dust Covers/Untitled design.png",
     ],
-    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Dust Covers/6.png",
+    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Dust Covers/6.png",
+
     faq: [
       { question: "Do dust covers help preserve candle fragrance?", answer: "Yes, dust covers help seal in the fragrance and prevent the wax from collecting dust." },
     ],
@@ -152,7 +155,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/4.png",
       "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/2.png",
+    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/2.png",
+
     faq: [
       { question: "How many candles can one shipping box hold?", answer: "We can design boxes to hold anywhere from 1 to 12+ candles with custom divider inserts." },
     ],
@@ -183,7 +187,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/4.png",
       "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/s.png",
     ],
-    hoverImage: "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/2.png",
+    hoverImage: "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/2.png",
+
     faq: [
       { question: "Can kraft boxes be printed in full color?", answer: "Yes, we can print full-color designs on kraft material." },
     ],
@@ -202,7 +207,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/4.png",
       "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/2.png",
+    hoverImage: "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/2.png",
+
     faq: [
       { question: "What makes these boxes 'luxury'?", answer: "Luxury boxes use thick rigid board, premium finishes like foil stamping and embossing, and feature magnetic or ribbon closures." },
     ],
@@ -221,7 +227,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/4.png",
       "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/2.png",
+    hoverImage: "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/2.png",
+
     faq: [
       { question: "Can these boxes hold heavy pillar candles?", answer: "Yes, our pillar candle boxes feature reinforced bottoms designed to support the weight of large pillar candles." },
     ],
@@ -252,7 +259,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/4.png",
       "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/2.png",
+    hoverImage: "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/2.png",
+
     faq: [
       { question: "How many taper candles can one box hold?", answer: "We can design boxes for 2, 4, 6, or 12 taper candles with secure dividers." },
     ],
@@ -474,7 +482,7 @@ export const products: Product[] = [
     ],
     hoverImage: "/images/By Industries 3/Food Packagig/Burger boxes/2.jpg",
     faq: [
-      { question: "Are these boxes grease-proof?", answer: "Yes, our burger boxes feature grease-resistant coatings to keep packaging clean." },
+      { question: "Are these boxes grease-proof?", answer: "Yes, our burger boxes feature grease resistant coatings to keep packaging clean." },
     ],
   },
   {
@@ -901,7 +909,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Maylar bags/Hangig mylar bag/3.png",
       "/images/By Industries 3/Maylar bags/Hangig mylar bag/4.png",
     ],
-    hoverImage: "/images/By Industries 3/Maylar bags/Hangig mylar bag/2.png",
+    hoverImage: "/images/By Industries 3/Maylar bags/Hangig mylar bag/2.png",
+
     faq: [
       { question: "Are hang holes reinforced?", answer: "Yes, all our hanging mylar bags feature reinforced hang holes to prevent tearing." },
     ],
@@ -920,7 +929,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Maylar bags/Kraft mylar bags/4.png",
       "/images/By Industries 3/Maylar bags/Kraft mylar bags/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Maylar bags/Kraft mylar bags/2.png",
+    hoverImage: "/images/By Industries 3/Maylar bags/Kraft mylar bags/2.png",
+
     faq: [
       { question: "Do kraft mylar bags offer the same protection as regular mylar?", answer: "Yes, the foil-lined back provides the same moisture, light, and oxygen barrier protection." },
     ],
@@ -939,7 +949,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/4.png",
       "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/2.png",
+    hoverImage: "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/2.png",
+
     faq: [
       { question: "How many times can bags be resealed?", answer: "Our zip lock closures are designed for hundreds of open-and-close cycles." },
     ],
@@ -958,7 +969,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/4.png",
       "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/2.png",
+    hoverImage: "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/2.png",
+
     faq: [
       { question: "What products are side gusset bags best for?", answer: "Side gusset bags are ideal for coffee, tea, granola, pet food, and other bulky items." },
     ],
@@ -977,7 +989,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Maylar bags/Stand up mylar bags/4.png",
       "/images/By Industries 3/Maylar bags/Stand up mylar bags/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Maylar bags/Stand up mylar bags/2.png",
+    hoverImage: "/images/By Industries 3/Maylar bags/Stand up mylar bags/2.png",
+
     faq: [
       { question: "Do stand-up bags stay upright when partially full?", answer: "Yes, the bottom gusset design keeps bags standing upright even when partially full." },
     ],
@@ -996,7 +1009,8 @@ export const products: Product[] = [
       "/images/By Industries 3/Maylar bags/Window mylar bags/4.png",
       "/images/By Industries 3/Maylar bags/Window mylar bags/5.png",
     ],
-    hoverImage: "/images/By Industries 3/Maylar bags/Window mylar bags/2.png",
+    hoverImage: "/images/By Industries 3/Maylar bags/Window mylar bags/2.png",
+
     faq: [
       { question: "Does the window affect barrier protection?", answer: "Our windows are made from food-grade clear film that maintains barrier protection while allowing product visibility." },
     ],
