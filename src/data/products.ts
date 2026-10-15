@@ -19,7 +19,14 @@ export const products: Product[] = [
     description: "Premium packaging designed specifically for dress shirts with a professional presentation.",
     longDescription: "Our dress shirt boxes are crafted to present dress shirts with elegance. Featuring custom inserts and tissue paper options, these boxes protect garments while creating a luxury unboxing experience.",
     features: ["Custom sizes available", "Tissue paper inserts", "Full-color printing", "Matte or gloss lamination", "Magnetic closure options"],
-    images: ["/images/categories/dress_shirt_1.jpg", "/images/categories/dress_shirt_2.jpg", "/images/categories/dress_shirt_3.jpg", "/images/categories/dress_shirt_4.jpg"],
+    images: [
+      "/images/By Industries 3/Apparel Boxes/dress shirt boxes/5.jpg",
+      "/images/By Industries 3/Apparel Boxes/dress shirt boxes/6.jpg",
+      "/images/By Industries 3/Apparel Boxes/dress shirt boxes/7.jpg",
+      "/images/By Industries 3/Apparel Boxes/dress shirt boxes/8.jpg",
+      "/images/By Industries 3/Apparel Boxes/dress shirt boxes/9.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Apparel Boxes/dress shirt boxes/6.jpg",
     faq: [
       { question: "What sizes are available?", answer: "We offer fully customizable sizes to fit any dress shirt dimensions." },
     ],
@@ -31,7 +38,13 @@ export const products: Product[] = [
     description: "Elegant tie packaging with custom inserts for secure and stylish presentation.",
     longDescription: "Our custom tie boxes are designed to showcase neckties beautifully. Available with roll inserts or flat presentation styles, custom printing, and premium finishes.",
     features: ["Roll or flat insert options", "Custom printing", "Premium finishes", "Multiple size options", "Gift-ready packaging"],
-    images: ["/images/categories/tie_1.jpg", "/images/categories/tie_2.jpg", "/images/categories/tie_3.jpg", "/images/categories/tie_4.jpg"],
+    images: [
+      "/images/By Industries 3/Apparel Boxes/Tie boxes/1.jpg",
+      "/images/By Industries 3/Apparel Boxes/Tie boxes/2.jpg",
+      "/images/By Industries 3/Apparel Boxes/Tie boxes/3.jpg",
+      "/images/By Industries 3/Apparel Boxes/Tie boxes/4.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Apparel Boxes/Tie boxes/2.jpg",
     faq: [
       { question: "Can tie boxes hold multiple ties?", answer: "Yes, we can design boxes to hold 1-6 ties with custom dividers." },
     ],
@@ -43,7 +56,12 @@ export const products: Product[] = [
     description: "Custom t-shirt packaging for brands, retailers, and e-commerce shipping.",
     longDescription: "Our t-shirt boxes provide the perfect packaging solution for clothing brands. Designed for both retail display and e-commerce shipping with custom branding options.",
     features: ["E-commerce ready", "Custom branding", "Durable construction", "Multiple size options", "Eco-friendly materials available"],
-    images: ["/images/categories/tshirt_1.jpg", "/images/categories/tshirt_2.jpg", "/images/categories/tshirt_3.jpg"],
+    images: [
+      "/images/By Industries 3/Apparel Boxes/T-Shirt Boxes/1.jpg",
+      "/images/By Industries 3/Apparel Boxes/T-Shirt Boxes/3.jpg",
+      "/images/By Industries 3/Apparel Boxes/T-Shirt Boxes/4.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Apparel Boxes/T-Shirt Boxes/3.jpg",
     faq: [
       { question: "Are these suitable for e-commerce?", answer: "Yes, our t-shirt boxes are designed to withstand shipping while maintaining a premium look." },
     ],
@@ -70,8 +88,15 @@ export const products: Product[] = [
     description: "Premium candle packaging with custom die-cut inserts for secure product placement.",
     longDescription: "Our candle boxes with custom inserts provide the ultimate product protection and presentation. Die-cut inserts are precisely shaped to your candle dimensions, preventing movement and ensuring a premium unboxing experience.",
     features: ["Custom die-cut inserts", "Precise candle fit", "Premium presentation", "Multiple insert materials", "Full-color printing"],
-    images: ["/images/By Industries 2/Canlde boxes/Candle Boxes with Inserts/2948.png", "/images/categories/candle_inserts_1.jpg", "/images/categories/candle_inserts_2.jpg"],
-    hoverImage: "/images/By Industries 2/Canlde boxes/Candle Boxes with Inserts/6 (1).png",
+    images: [
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/1.png",
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/2.png",
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/3.png",
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/4.png",
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Boxes with Inserts/2.png",
+
     faq: [
       { question: "What materials are used for inserts?", answer: "We offer cardboard, foam, velvet, and corrugated insert options." },
     ],
@@ -83,10 +108,15 @@ export const products: Product[] = [
     description: "Candle boxes featuring die-cut windows to showcase your candles without opening the box.",
     longDescription: "Let your candles speak for themselves with our window candle boxes. Die-cut windows with clear PET film allow customers to see the candle color, texture, and design without opening the box, driving purchase decisions.",
     features: ["Die-cut window", "Clear PET film", "Multiple window shapes", "Product visibility", "Shelf appeal"],
-    images: ["/images/By Industries 2/Canlde boxes/Candle Boxes with Window/2.png", "/images/categories/candle_window_1.jpg", "/images/categories/candle_window_2.jpg",
-
+    images: [
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/1.png",
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/2.png",
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/3.png",
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/4.png",
+      "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/5.png",
     ],
-    hoverImage: "/images/By Industries 2/Canlde boxes/Candle Boxes with Window/54.png",
+    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Boxes with Window/2.png",
+
     faq: [
       { question: "What window shapes are available?", answer: "We offer rectangular, round, oval, heart, and custom-shaped windows." },
     ],
@@ -98,8 +128,15 @@ export const products: Product[] = [
     description: "Custom dust covers for open-top candles to protect from debris and maintain fragrance.",
     longDescription: "Our candle dust covers protect open-top candles from dust and debris while helping to preserve the fragrance. Available in cardboard, acrylic-style, and kraft materials with custom branding options.",
     features: ["Dust and debris protection", "Fragrance preservation", "Custom branding", "Multiple materials", "Precise fit"],
-    images: ["/images/By Industries 2/Canlde boxes/Candle Dust Covers/5.png", "/images/categories/candle_dust_1.jpg", ],
-    hoverImage: "/images/By Industries 2/Canlde boxes/Candle Dust Covers/6.png",
+    images: [
+      "/images/By Industries 3/Canlde boxes/Candle Dust Covers/5.png",
+      "/images/By Industries 3/Canlde boxes/Candle Dust Covers/6.png",
+      "/images/By Industries 3/Canlde boxes/Candle Dust Covers/9.png",
+      "/images/By Industries 3/Canlde boxes/Candle Dust Covers/926.png",
+      "/images/By Industries 3/Canlde boxes/Candle Dust Covers/Untitled design.png",
+    ],
+    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Dust Covers/6.png",
+
     faq: [
       { question: "Do dust covers help preserve candle fragrance?", answer: "Yes, dust covers help seal in the fragrance and prevent the wax from collecting dust." },
     ],
@@ -111,8 +148,15 @@ export const products: Product[] = [
     description: "Durable shipping boxes specifically designed to protect candles during transit.",
     longDescription: "Our candle shipping boxes are engineered for maximum protection during transit. Made from sturdy corrugated material with custom inserts to prevent movement and breakage.",
     features: ["Corrugated material", "Custom inserts", "Shock protection", "Branded printing", "Multiple candle configurations"],
-    images: ["/images/By Industries 2/Canlde boxes/Candle Shipping Boxes/85.png", "/images/categories/candle_shipping_1.jpg", , "/images/categories/candle_shipping_4.jpg", "/images/categories/candle_shipping_5.jpg"],
-    hoverImage: "/images/By Industries 2/Canlde boxes/Candle Shipping Boxes/6 (2).png",
+    images: [
+      "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/1.png",
+      "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/2.png",
+      "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/3.png",
+      "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/4.png",
+      "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Canlde boxes/Candle Shipping Boxes/2.png",
+
     faq: [
       { question: "How many candles can one shipping box hold?", answer: "We can design boxes to hold anywhere from 1 to 12+ candles with custom divider inserts." },
     ],
@@ -136,8 +180,15 @@ export const products: Product[] = [
     description: "Eco-friendly kraft candle packaging with a natural, rustic aesthetic.",
     longDescription: "Our kraft candle boxes combine eco-friendliness with aesthetics. Made from 100% recyclable brown kraft material, these boxes appeal to environmentally conscious consumers.",
     features: ["100% recyclable kraft", "Natural rustic look", "Custom printing on kraft", "Window options", "Biodegradable"],
-    images: ["/images/By Industries 2/Canlde boxes/Kraft Candle Boxes/26.png", "/images/categories/kraft_candle_1.jpg", "/images/categories/kraft_candle_2.jpg"],
-    hoverImage: "/images/By Industries 2/Canlde boxes/Kraft Candle Boxes/dfv.png",
+    images: [
+      "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/1.png",
+      "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/2.png",
+      "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/3.png",
+      "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/4.png",
+      "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/s.png",
+    ],
+    hoverImage: "/images/By Industries 3/Canlde boxes/Kraft Candle Boxes/2.png",
+
     faq: [
       { question: "Can kraft boxes be printed in full color?", answer: "Yes, we can print full-color designs on kraft material." },
     ],
@@ -149,8 +200,15 @@ export const products: Product[] = [
     description: "High-end luxury candle packaging with rigid construction, foil stamping, and premium finishes.",
     longDescription: "Our luxury candle boxes are crafted from rigid board with premium finishes including foil stamping, embossing, soft-touch lamination, and magnetic closures.",
     features: ["Rigid board construction", "Foil stamping", "Embossing/debossing", "Soft-touch lamination", "Magnetic closure"],
-    images: ["/images/By Industries 2/Canlde boxes/Luxury Candle Boxes/df.png", "/images/categories/luxury_candle_2.jpg", "/images/categories/luxury_candle_5.jpg"],
-    hoverImage: "/images/By Industries 2/Canlde boxes/Luxury Candle Boxes/ef.png",
+    images: [
+      "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/1.png",
+      "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/2.png",
+      "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/3.png",
+      "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/4.png",
+      "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Canlde boxes/Luxury Candle Boxes/2.png",
+
     faq: [
       { question: "What makes these boxes 'luxury'?", answer: "Luxury boxes use thick rigid board, premium finishes like foil stamping and embossing, and feature magnetic or ribbon closures." },
     ],
@@ -162,8 +220,15 @@ export const products: Product[] = [
     description: "Sturdy pillar candle packaging designed to protect and showcase tall, cylindrical candles.",
     longDescription: "Our pillar candle boxes are specifically engineered to accommodate the height and weight of pillar candles. With reinforced bottoms and custom inserts, your candles arrive safely.",
     features: ["Reinforced bottom", "Custom height options", "Insert options", "Full-color printing", "Protective design"],
-    images: ["/images/By Industries 2/Canlde boxes/Pillar Candle Boxes/afdgv.png", "/images/categories/pillar_candle_1.jpg", "/images/categories/pillar_candle_2.jpg",],
-    hoverImage: "/images/By Industries 2/Canlde boxes/Pillar Candle Boxes/aergf.png",
+    images: [
+      "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/1.png",
+      "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/2.png",
+      "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/3.png",
+      "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/4.png",
+      "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Canlde boxes/Pillar Candle Boxes/2.png",
+
     faq: [
       { question: "Can these boxes hold heavy pillar candles?", answer: "Yes, our pillar candle boxes feature reinforced bottoms designed to support the weight of large pillar candles." },
     ],
@@ -187,8 +252,15 @@ export const products: Product[] = [
     description: "Elongated packaging solutions designed for taper candles with secure holding mechanisms.",
     longDescription: "Our taper candle packaging is specifically designed for long, slender taper candles. With custom inserts and elongated box designs, your taper candles are protected from bending and breakage.",
     features: ["Elongated box design", "Anti-bend protection", "Custom taper inserts", "Elegant presentation", "Multiple candle count options"],
-    images: ["/images/By Industries 2/Canlde boxes/Taper Candle Packaging/edsfvc.png", "/images/categories/taper_candle_1.jpg", "/images/categories/taper_candle_4.jpg",],
-    hoverImage: "/images/By Industries 2/Canlde boxes/Taper Candle Packaging/SWBV.png",
+    images: [
+      "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/1.png",
+      "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/2.png",
+      "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/3.png",
+      "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/4.png",
+      "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Canlde boxes/Taper Candle Packaging/2.png",
+
     faq: [
       { question: "How many taper candles can one box hold?", answer: "We can design boxes for 2, 4, 6, or 12 taper candles with secure dividers." },
     ],
@@ -202,7 +274,12 @@ export const products: Product[] = [
     description: "Child-resistant concentrate packaging for wax, shatter, and oil products.",
     longDescription: "Our concentrate boxes are designed for cannabis concentrates with child-resistant features and compliance labeling. Available in various sizes with custom inserts.",
     features: ["Child-resistant options", "Custom inserts", "Compliance labeling", "Smell-proof materials", "Premium printing"],
-    images: ["/images/categories/concentrate_1.jpg", "/images/categories/concentrate_2.jpg", "/images/categories/concentrate_3.jpg", "/images/categories/concentrate_4.jpg"],
+    images: [
+      "/images/By Industries 3/Cannabis Boxes/Concentrate Boxes/1.png",
+      "/images/By Industries 3/Cannabis Boxes/Concentrate Boxes/2.png",
+      "/images/By Industries 3/Cannabis Boxes/Concentrate Boxes/3.png",
+    ],
+    hoverImage: "/images/By Industries 3/Cannabis Boxes/Concentrate Boxes/2.png",
     faq: [
       { question: "Are these boxes child-resistant?", answer: "Yes, we offer child-resistant options that meet all regulatory requirements." },
     ],
@@ -214,7 +291,14 @@ export const products: Product[] = [
     description: "Food-grade cannabis edible packaging with child-resistant and compliant features.",
     longDescription: "Our edible boxes are made from food-grade materials with child-resistant closures. Designed to keep edibles fresh while meeting all state packaging requirements.",
     features: ["Food-grade materials", "Child-resistant closures", "Freshness protection", "Compliant design", "Custom printing"],
-    images: ["/images/categories/edible_1.jpg", "/images/categories/edible_2.jpg", "/images/categories/edible_3.jpg", "/images/categories/edible_4.jpg", "/images/categories/edible_5.jpg"],
+    images: [
+      "/images/By Industries 3/Cannabis Boxes/Edible Boxes/1.jpg",
+      "/images/By Industries 3/Cannabis Boxes/Edible Boxes/2.jpg",
+      "/images/By Industries 3/Cannabis Boxes/Edible Boxes/3.jpg",
+      "/images/By Industries 3/Cannabis Boxes/Edible Boxes/4.jpg",
+      "/images/By Industries 3/Cannabis Boxes/Edible Boxes/5.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Cannabis Boxes/Edible Boxes/2.jpg",
     faq: [
       { question: "Are edible boxes food-safe?", answer: "Yes, all our edible packaging uses FDA-approved food-grade materials." },
     ],
@@ -226,7 +310,14 @@ export const products: Product[] = [
     description: "Custom pre-roll packaging with secure inserts and child-resistant options.",
     longDescription: "Our pre-roll boxes are designed to hold pre-rolled joints securely. Available with custom inserts, child-resistant closures, and compliant labeling for dispensaries.",
     features: ["Secure inserts", "Child-resistant options", "Custom sizes", "Compliance labeling", "Premium finishes"],
-    images: ["/images/categories/preroll_1.jpg", "/images/categories/preroll_2.jpg", "/images/categories/preroll_3.jpg", "/images/categories/preroll_4.jpg", "/images/categories/preroll_5.jpg"],
+    images: [
+      "/images/By Industries 3/Cannabis Boxes/Pre-Roll Boxes/1.jpg",
+      "/images/By Industries 3/Cannabis Boxes/Pre-Roll Boxes/2.jpg",
+      "/images/By Industries 3/Cannabis Boxes/Pre-Roll Boxes/3.jpg",
+      "/images/By Industries 3/Cannabis Boxes/Pre-Roll Boxes/4.jpg",
+      "/images/By Industries 3/Cannabis Boxes/Pre-Roll Boxes/5.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Cannabis Boxes/Pre-Roll Boxes/2.jpg",
     faq: [
       { question: "How many pre-rolls can one box hold?", answer: "We can design boxes for 1, 3, 5, or more pre-rolls with custom inserts." },
     ],
@@ -238,7 +329,14 @@ export const products: Product[] = [
     description: "Custom tincture bottle packaging with protective inserts and compliant labeling.",
     longDescription: "Our tincture packaging is designed to securely hold tincture bottles with protective inserts. Features child-resistant options and space for compliance labeling.",
     features: ["Bottle inserts", "Child-resistant options", "Compliance labeling", "Custom sizes", "Premium printing"],
-    images: ["/images/categories/tincture_1.jpg", "/images/categories/tincture_2.jpg", "/images/categories/tincture_3.jpg", "/images/categories/tincture_4.jpg", "/images/categories/tincture_5.jpg"],
+    images: [
+      "/images/By Industries 3/Cannabis Boxes/tincture packaging/1.jpg",
+      "/images/By Industries 3/Cannabis Boxes/tincture packaging/2.jpg",
+      "/images/By Industries 3/Cannabis Boxes/tincture packaging/3.jpg",
+      "/images/By Industries 3/Cannabis Boxes/tincture packaging/4.jpg",
+      "/images/By Industries 3/Cannabis Boxes/tincture packaging/5.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Cannabis Boxes/tincture packaging/2.jpg",
     faq: [
       { question: "Can these boxes hold different bottle sizes?", answer: "Yes, we offer custom inserts designed for various tincture bottle sizes." },
     ],
@@ -252,7 +350,14 @@ export const products: Product[] = [
     description: "Eco-friendly kraft chocolate packaging with a natural, rustic aesthetic.",
     longDescription: "Our kraft chocolate boxes combine sustainability with elegance. Made from 100% recyclable kraft material, perfect for artisan chocolatiers who value eco-friendly packaging.",
     features: ["100% recyclable kraft", "Food-grade materials", "Custom printing", "Window options", "Biodegradable"],
-    images: ["/images/categories/kraft_chocolate_1.jpg", "/images/categories/kraft_chocolate_2.jpg", "/images/categories/kraft_chocolate_3.jpg", "/images/categories/kraft_chocolate_4.jpg", "/images/categories/kraft_chocolate_5.jpg"],
+    images: [
+      "/images/By Industries 3/Choclate boxes/Kraft choclaet boxes/1.png",
+      "/images/By Industries 3/Choclate boxes/Kraft choclaet boxes/2.png",
+      "/images/By Industries 3/Choclate boxes/Kraft choclaet boxes/3.png",
+      "/images/By Industries 3/Choclate boxes/Kraft choclaet boxes/4.png",
+      "/images/By Industries 3/Choclate boxes/Kraft choclaet boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Choclate boxes/Kraft choclaet boxes/2.png",
     faq: [
       { question: "Are these boxes food-safe?", answer: "Yes, all our chocolate packaging uses FDA-approved food-grade materials." },
     ],
@@ -264,7 +369,14 @@ export const products: Product[] = [
     description: "Premium rigid chocolate packaging with foil stamping, inserts, and magnetic closures.",
     longDescription: "Our luxury chocolate boxes are crafted from rigid board with premium finishes. Featuring custom cavity inserts, foil stamping, and magnetic closures for a truly premium gifting experience.",
     features: ["Rigid board construction", "Custom cavity inserts", "Foil stamping", "Magnetic closure", "Soft-touch lamination"],
-    images: ["/images/categories/luxury_chocolate_1.jpg", "/images/categories/luxury_chocolate_2.jpg", "/images/categories/luxury_chocolate_3.jpg", "/images/categories/luxury_chocolate_4.jpg", "/images/categories/luxury_chocolate_5.jpg"],
+    images: [
+      "/images/By Industries 3/Choclate boxes/Luxury choclate boxes/1.png",
+      "/images/By Industries 3/Choclate boxes/Luxury choclate boxes/2.png",
+      "/images/By Industries 3/Choclate boxes/Luxury choclate boxes/3.png",
+      "/images/By Industries 3/Choclate boxes/Luxury choclate boxes/4.png",
+      "/images/By Industries 3/Choclate boxes/Luxury choclate boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Choclate boxes/Luxury choclate boxes/2.png",
     faq: [
       { question: "Can I get custom cavity inserts?", answer: "Yes, we create custom cavity trays to hold individual chocolates securely." },
     ],
@@ -276,7 +388,14 @@ export const products: Product[] = [
     description: "Elegant truffle packaging with individual cavities and premium finishes.",
     longDescription: "Our truffle boxes are designed with individual cavities to hold each truffle securely. Available in various sizes with window options and premium finishing.",
     features: ["Individual cavities", "Window options", "Food-grade materials", "Premium finishes", "Multiple sizes"],
-    images: ["/images/categories/truffle_1.jpg", "/images/categories/truffle_2.jpg", "/images/categories/truffle_3.jpg", "/images/categories/truffle_4.jpg", "/images/categories/truffle_5.jpg"],
+    images: [
+      "/images/By Industries 3/Choclate boxes/Truffel boxes/1.png",
+      "/images/By Industries 3/Choclate boxes/Truffel boxes/2.png",
+      "/images/By Industries 3/Choclate boxes/Truffel boxes/3.png",
+      "/images/By Industries 3/Choclate boxes/Truffel boxes/4.png",
+      "/images/By Industries 3/Choclate boxes/Truffel boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Choclate boxes/Truffel boxes/2.png",
     faq: [
       { question: "How many truffles can one box hold?", answer: "We offer boxes for 4, 6, 9, 12, or 24 truffles with custom cavity trays." },
     ],
@@ -290,7 +409,14 @@ export const products: Product[] = [
     description: "Custom foundation packaging with secure inserts and premium printing.",
     longDescription: "Our foundation boxes are designed to hold foundation bottles and compacts securely. Available with custom inserts, spot UV, and premium finishes.",
     features: ["Custom inserts", "Spot UV options", "Premium printing", "Multiple sizes", "Protective design"],
-    images: ["/images/categories/foundation_1.jpg", "/images/categories/foundation_2.jpg", "/images/categories/foundation_3.jpg", "/images/categories/foundation_4.jpg", "/images/categories/foundation_5.jpg"],
+    images: [
+      "/images/By Industries 3/cosmetic packaging/Foundation boxes/1.png",
+      "/images/By Industries 3/cosmetic packaging/Foundation boxes/2.png",
+      "/images/By Industries 3/cosmetic packaging/Foundation boxes/3.png",
+      "/images/By Industries 3/cosmetic packaging/Foundation boxes/4.png",
+      "/images/By Industries 3/cosmetic packaging/Foundation boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/cosmetic packaging/Foundation boxes/2.png",
     faq: [
       { question: "Can these hold glass bottles?", answer: "Yes, our custom inserts provide excellent protection for glass foundation bottles." },
     ],
@@ -302,7 +428,14 @@ export const products: Product[] = [
     description: "Stylish lip gloss packaging with custom printing and premium finishes.",
     longDescription: "Our lip gloss boxes are crafted to showcase your lip products beautifully. Available in various sizes with spot UV, foil stamping, and window options.",
     features: ["Custom sizes", "Spot UV coating", "Foil stamping", "Window options", "Premium printing"],
-    images: ["/images/categories/lipstick_1.jpg", "/images/categories/lipstick_2.jpg", "/images/categories/lipstick_3.jpg", "/images/categories/lipstick_4.jpg", "/images/categories/lipstick_5.jpg"],
+    images: [
+      "/images/By Industries 3/cosmetic packaging/Lip gloss/1.png",
+      "/images/By Industries 3/cosmetic packaging/Lip gloss/2.png",
+      "/images/By Industries 3/cosmetic packaging/Lip gloss/3.png",
+      "/images/By Industries 3/cosmetic packaging/Lip gloss/4.png",
+      "/images/By Industries 3/cosmetic packaging/Lip gloss/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/cosmetic packaging/Lip gloss/2.png",
     faq: [
       { question: "What finishes are available?", answer: "We offer matte, gloss, spot UV, foil stamping, and soft-touch lamination." },
     ],
@@ -340,10 +473,18 @@ export const products: Product[] = [
     description: "Food-grade burger boxes with grease-resistant coating and custom branding.",
     longDescription: "Our burger boxes are designed to keep burgers fresh and presentable. Made from food-grade materials with grease-resistant coating and custom printing.",
     features: ["Food-grade materials", "Grease-resistant coating", "Custom printing", "Ventilation options", "Multiple sizes"],
-    images: ["/images/categories/burger_1.jpg", "/images/categories/burger_2.jpg", "/images/categories/burger_3.jpg", "/images/categories/burger_4.jpg", "/images/categories/burger_5.jpg"],
-    faq: [
-      { question: "Are these boxes grease-proof?", answer: "Yes, our burger boxes feature grease-resistant coatings to keep packaging clean." },
+    images: [
+      "/images/By Industries 3/Food Packagig/Burger boxes/1.jpg",
+      "/images/By Industries 3/Food Packagig/Burger boxes/2.jpg",
+      "/images/By Industries 3/Food Packagig/Burger boxes/3.jpg",
+      "/images/By Industries 3/Food Packagig/Burger boxes/4.jpg",
+      "/images/By Industries 3/Food Packagig/Burger boxes/5.jpg",
     ],
+    hoverImage: "/images/By Industries 3/Food Packagig/Burger boxes/2.jpg",
+    faq: [
+      { question: "Are these boxes grease-proof?", answer: "Yes, our burger boxes feature grease resistant coatings to keep packaging clean." },
+    ],
+
   },
   {
     slug: "cereal-boxes",
@@ -352,7 +493,14 @@ export const products: Product[] = [
     description: "Custom cereal packaging with vibrant printing and food-safe materials.",
     longDescription: "Our cereal boxes are made from food-grade cardboard with vibrant full-color printing. Available in standard and custom sizes with options for inner liners.",
     features: ["Food-grade materials", "Full-color printing", "Inner liner options", "Custom sizes", "Shelf-ready design"],
-    images: ["/images/categories/cereal_1.jpg", "/images/categories/cereal_2.jpg", "/images/categories/cereal_3.jpg", "/images/categories/cereal_4.jpg"],
+    images: [
+      "/images/By Industries 3/Food Packagig/Cereal Boxes/a.jpg",
+      "/images/By Industries 3/Food Packagig/Cereal Boxes/b.jpg",
+      "/images/By Industries 3/Food Packagig/Cereal Boxes/c.jpg",
+      "/images/By Industries 3/Food Packagig/Cereal Boxes/d.jpg",
+      "/images/By Industries 3/Food Packagig/Cereal Boxes/e.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Food Packagig/Cereal Boxes/b.jpg",
     faq: [
       { question: "Can cereal boxes include inner liners?", answer: "Yes, we offer food-safe poly or wax inner liners to maintain freshness." },
     ],
@@ -364,7 +512,13 @@ export const products: Product[] = [
     description: "Food-grade trays for takeout, catering, and food service applications.",
     longDescription: "Our custom food trays are designed for restaurants, caterers, and food service. Made from food-grade materials with grease-resistant options and custom branding.",
     features: ["Food-grade materials", "Grease-resistant", "Custom branding", "Multiple sizes", "Stackable design"],
-    images: ["/images/categories/foodtray_1.jpg", "/images/categories/foodtray_2.jpg", "/images/categories/foodtray_3.jpg", "/images/categories/foodtray_4.jpg"],
+    images: [
+      "/images/By Industries 3/Food Packagig/Custom food trays/1.jpg",
+      "/images/By Industries 3/Food Packagig/Custom food trays/2.jpg",
+      "/images/By Industries 3/Food Packagig/Custom food trays/3.jpg",
+      "/images/By Industries 3/Food Packagig/Custom food trays/4.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Food Packagig/Custom food trays/2.jpg",
     faq: [
       { question: "Are food trays microwave-safe?", answer: "We offer microwave-safe options, please specify your requirements when ordering." },
     ],
@@ -376,7 +530,13 @@ export const products: Product[] = [
     description: "Moisture-resistant frozen food packaging designed for cold storage.",
     longDescription: "Our frozen food boxes are engineered to withstand cold temperatures and moisture. Made from coated cardboard that maintains structural integrity in freezer conditions.",
     features: ["Moisture-resistant coating", "Freezer-safe materials", "Custom printing", "Multiple sizes", "FDA compliant"],
-    images: ["/images/categories/frozen_1.jpg", "/images/categories/frozen_2.jpg", "/images/categories/frozen_3.jpg", "/images/categories/frozen_4.jpg", "/images/categories/frozen_5.jpg"],
+    images: [
+      "/images/By Industries 3/Food Packagig/frozzen food/1.jpg",
+      "/images/By Industries 3/Food Packagig/frozzen food/2.jpg",
+      "/images/By Industries 3/Food Packagig/frozzen food/3.jpg",
+      "/images/By Industries 3/Food Packagig/frozzen food/4.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Food Packagig/frozzen food/2.jpg",
     faq: [
       { question: "Can these boxes withstand freezer temperatures?", answer: "Yes, our frozen food boxes are made with special coatings that maintain integrity at freezer temperatures." },
     ],
@@ -390,7 +550,14 @@ export const products: Product[] = [
     description: "FDA-compliant supplement packaging with tamper-evident features.",
     longDescription: "Our supplement boxes meet all FDA requirements for dietary supplement packaging. Available with tamper-evident seals, serialization, and custom printing.",
     features: ["FDA compliant", "Tamper-evident seals", "Custom printing", "Serialization options", "Multiple sizes"],
-    images: ["/images/categories/supplement_1.jpg", "/images/categories/supplement_2.jpg", "/images/categories/supplement_3.jpg", "/images/categories/supplement_4.jpg", "/images/categories/supplement_5.jpg"],
+    images: [
+      "/images/By Industries 3/Pharma Packaging/Supplement Boxes/1.png",
+      "/images/By Industries 3/Pharma Packaging/Supplement Boxes/2.png",
+      "/images/By Industries 3/Pharma Packaging/Supplement Boxes/3.png",
+      "/images/By Industries 3/Pharma Packaging/Supplement Boxes/4.png",
+      "/images/By Industries 3/Pharma Packaging/Supplement Boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Pharma Packaging/Supplement Boxes/2.png",
     faq: [
       { question: "Are these boxes FDA compliant?", answer: "Yes, all our supplement packaging meets FDA compliance standards." },
     ],
@@ -402,7 +569,14 @@ export const products: Product[] = [
     description: "Medical-grade syringe packaging with secure inserts and tamper-evident features.",
     longDescription: "Our syringe boxes are designed with medical-grade materials and custom inserts to securely hold syringes. Features tamper-evident closures and compliance labeling.",
     features: ["Medical-grade materials", "Custom syringe inserts", "Tamper-evident closures", "Compliance labeling", "Sterile packaging options"],
-    images: ["/images/categories/syringe_1.jpg", "/images/categories/syringe_2.jpg", "/images/categories/syringe_3.jpg", "/images/categories/syringe_4.jpg", "/images/categories/syringe_5.jpg"],
+    images: [
+      "/images/By Industries 3/Pharma Packaging/Syringe Boxes/1.png",
+      "/images/By Industries 3/Pharma Packaging/Syringe Boxes/2.png",
+      "/images/By Industries 3/Pharma Packaging/Syringe Boxes/3.png",
+      "/images/By Industries 3/Pharma Packaging/Syringe Boxes/4.png",
+      "/images/By Industries 3/Pharma Packaging/Syringe Boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Pharma Packaging/Syringe Boxes/2.png",
     faq: [
       { question: "Are these suitable for medical use?", answer: "Yes, our syringe boxes use medical-grade materials suitable for healthcare applications." },
     ],
@@ -416,7 +590,14 @@ export const products: Product[] = [
     description: "Eco-friendly kraft soap packaging with a natural, rustic look.",
     longDescription: "Our kraft soap boxes are perfect for handmade and artisan soaps. Made from 100% recyclable kraft material with custom printing and window options.",
     features: ["100% recyclable", "Custom printing", "Window options", "Natural aesthetic", "Biodegradable"],
-    images: ["/images/categories/kraftsoap_1.jpg", "/images/categories/kraftsoap_2.jpg", "/images/categories/kraftsoap_3.jpg", "/images/categories/kraftsoap_4.jpg", "/images/categories/kraftsoap_5.jpg"],
+    images: [
+      "/images/By Industries 3/Soap Boxes/Kraft Soap boxes/1.png",
+      "/images/By Industries 3/Soap Boxes/Kraft Soap boxes/2.png",
+      "/images/By Industries 3/Soap Boxes/Kraft Soap boxes/3.png",
+      "/images/By Industries 3/Soap Boxes/Kraft Soap boxes/4.png",
+      "/images/By Industries 3/Soap Boxes/Kraft Soap boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Soap Boxes/Kraft Soap boxes/2.png",
     faq: [
       { question: "Are kraft soap boxes eco-friendly?", answer: "Yes, our kraft boxes are 100% recyclable and biodegradable." },
     ],
@@ -431,7 +612,14 @@ export const products: Product[] = [
     faq: [
       { question: "Can gift boxes hold multiple soaps?", answer: "Yes, we design boxes with dividers to hold 2-8 bars of soap." },
     ],
-    images: ["/images/categories/soapgift_1.jpg", "/images/categories/soapgift_2.jpg", "/images/categories/soapgift_3.jpg", "/images/categories/soapgift_4.jpg"],
+    images: [
+      "/images/By Industries 3/Soap Boxes/soap gift boxes/1.png",
+      "/images/By Industries 3/Soap Boxes/soap gift boxes/2.png",
+      "/images/By Industries 3/Soap Boxes/soap gift boxes/3.png",
+      "/images/By Industries 3/Soap Boxes/soap gift boxes/4.png",
+      "/images/By Industries 3/Soap Boxes/soap gift boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Soap Boxes/soap gift boxes/2.png",
   },
   {
     slug: "conical-soap-boxes",
@@ -454,7 +642,14 @@ export const products: Product[] = [
     faq: [
       { question: "How are soap sleeves applied?", answer: "Soap sleeves simply wrap around the bar, no glue needed for most designs." },
     ],
-    images: ["/images/categories/soapsleeve_1.jpg", "/images/categories/soapsleeve_2.jpg", "/images/categories/soapsleeve_3.jpg", "/images/categories/soapsleeve_4.jpg"],
+    images: [
+      "/images/By Industries 3/Soap Boxes/Soap sleeve/1.png",
+      "/images/By Industries 3/Soap Boxes/Soap sleeve/2.png",
+      "/images/By Industries 3/Soap Boxes/Soap sleeve/3.png",
+      "/images/By Industries 3/Soap Boxes/Soap sleeve/4.png",
+      "/images/By Industries 3/Soap Boxes/Soap sleeve/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Soap Boxes/Soap sleeve/2.png",
   },
   {
     slug: "window-soap-boxes",
@@ -466,7 +661,14 @@ export const products: Product[] = [
     faq: [
       { question: "Can the window be left open for scent?", answer: "Yes, we offer open windows for scent exposure or film-covered windows for full protection." },
     ],
-    images: ["/images/categories/windowsoap_1.jpg", "/images/categories/windowsoap_2.jpg", "/images/categories/windowsoap_3.jpg", "/images/categories/windowsoap_4.jpg"],
+    images: [
+      "/images/By Industries 3/Soap Boxes/Window Boxes/1.png",
+      "/images/By Industries 3/Soap Boxes/Window Boxes/2.png",
+      "/images/By Industries 3/Soap Boxes/Window Boxes/3.png",
+      "/images/By Industries 3/Soap Boxes/Window Boxes/4.png",
+      "/images/By Industries 3/Soap Boxes/Window Boxes/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Soap Boxes/Window Boxes/2.png",
   },
 
   // ===== VAPE =====
@@ -480,7 +682,13 @@ export const products: Product[] = [
     faq: [
       { question: "Can these hold different vape sizes?", answer: "Yes, we offer custom inserts for any disposable vape device dimensions." },
     ],
-    images: ["/images/categories/dispvape_1.jpg", "/images/categories/dispvape_2.jpg", "/images/categories/dispvape_3.jpg", "/images/categories/dispvape_4.jpg", "/images/categories/dispvape_5.jpg"],
+    images: [
+      "/images/By Industries 3/Vape Boxes/Disposable Vape Boxes/3.jpg",
+      "/images/By Industries 3/Vape Boxes/Disposable Vape Boxes/4.jpg",
+      "/images/By Industries 3/Vape Boxes/Disposable Vape Boxes/5.jpg",
+      "/images/By Industries 3/Vape Boxes/Disposable Vape Boxes/Untitled design.png",
+    ],
+    hoverImage: "/images/By Industries 3/Vape Boxes/Disposable Vape Boxes/4.jpg",
   },
   {
     slug: "e-liquid-boxes",
@@ -492,7 +700,14 @@ export const products: Product[] = [
     faq: [
       { question: "Are e-liquid boxes child-resistant?", answer: "Yes, we offer child-resistant packaging options for e-liquid products." },
     ],
-    images: ["/images/categories/eliquid_1.jpg", "/images/categories/eliquid_2.jpg", "/images/categories/eliquid_3.jpg", "/images/categories/eliquid_4.jpg", "/images/categories/eliquid_5.jpg"],
+    images: [
+      "/images/By Industries 3/Vape Boxes/E-Liquid Boxes/1.jpg",
+      "/images/By Industries 3/Vape Boxes/E-Liquid Boxes/2.jpg",
+      "/images/By Industries 3/Vape Boxes/E-Liquid Boxes/3.jpg",
+      "/images/By Industries 3/Vape Boxes/E-Liquid Boxes/4.jpg",
+      "/images/By Industries 3/Vape Boxes/E-Liquid Boxes/5.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Vape Boxes/E-Liquid Boxes/2.jpg",
   },
   {
     slug: "vape-cartridge-boxes",
@@ -504,7 +719,14 @@ export const products: Product[] = [
     faq: [
       { question: "Can these hold multiple cartridges?", answer: "Yes, we design boxes for single or multi-pack cartridge configurations." },
     ],
-    images: ["/images/categories/vapecart_1.jpg", "/images/categories/vapecart_2.jpg", "/images/categories/vapecart_3.jpg", "/images/categories/vapecart_4.jpg", "/images/categories/vapecart_5.jpg"],
+    images: [
+      "/images/By Industries 3/Vape Boxes/Vape Cartridge Boxes/1.jpg",
+      "/images/By Industries 3/Vape Boxes/Vape Cartridge Boxes/2.jpg",
+      "/images/By Industries 3/Vape Boxes/Vape Cartridge Boxes/3.jpg",
+      "/images/By Industries 3/Vape Boxes/Vape Cartridge Boxes/4.jpg",
+      "/images/By Industries 3/Vape Boxes/Vape Cartridge Boxes/5.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Vape Boxes/Vape Cartridge Boxes/2.jpg",
   },
 
   // ===== BAKERY =====
@@ -515,7 +737,13 @@ export const products: Product[] = [
     description: "Custom cookie packaging with window options to showcase your delicious treats.",
     longDescription: "Our cookie boxes are designed to keep cookies fresh while showcasing them beautifully. Available with window cut-outs, custom inserts, and food-grade materials perfect for bakeries, gift shops, and e-commerce brands.",
     features: ["Food-grade materials", "Window cut-out options", "Custom inserts", "Full-color printing", "Multiple size options"],
-    images: ["/images/categories/cookie_1.webp", "/images/categories/cookie_2.webp", "/images/categories/cookie_3.webp", "/images/categories/cookie_4.jpg"],
+    images: [
+      "/images/By Industries 3/Backery boxes/Cookie Boxes/1.png",
+      "/images/By Industries 3/Backery boxes/Cookie Boxes/2.png",
+      "/images/By Industries 3/Backery boxes/Cookie Boxes/3.png",
+      "/images/By Industries 3/Backery boxes/Cookie Boxes/4.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Backery boxes/Cookie Boxes/2.png",
     faq: [
       { question: "Are cookie boxes food-safe?", answer: "Yes, all our cookie packaging uses FDA-approved food-grade materials." },
     ],
@@ -527,7 +755,12 @@ export const products: Product[] = [
     description: "Sturdy donut packaging designed to protect and present donuts beautifully.",
     longDescription: "Our donut boxes feature sturdy construction to prevent crushing and keep donuts fresh. Available in single, half-dozen, and dozen configurations with custom branding options.",
     features: ["Sturdy construction", "Multiple configurations", "Window options", "Custom branding", "Grease-resistant coating"],
-    images: ["/images/categories/donut_1.jpg", "/images/categories/donut_2.webp", "/images/categories/donut_3.webp", "/images/categories/donut_4.webp"],
+    images: [
+      "/images/By Industries 3/Backery boxes/Donut Boxes/1.png",
+      "/images/By Industries 3/Backery boxes/Donut Boxes/2.png",
+      "/images/By Industries 3/Backery boxes/Donut Boxes/4.png",
+    ],
+    hoverImage: "/images/By Industries 3/Backery boxes/Donut Boxes/2.png",
     faq: [
       { question: "How many donuts can one box hold?", answer: "We offer boxes for single donuts, half-dozen, and full dozen configurations." },
     ],
@@ -539,7 +772,14 @@ export const products: Product[] = [
     description: "Eco-friendly kraft bakery packaging with a natural, rustic aesthetic.",
     longDescription: "Our kraft bakery boxes combine eco-friendliness with functionality. Made from 100% recyclable brown kraft material, these food-grade boxes are perfect for artisan bakeries and eco-conscious brands.",
     features: ["100% recyclable kraft", "Food-grade materials", "Custom printing on kraft", "Window options", "Biodegradable"],
-    images: ["/images/categories/kraft_bakery_1.jpg", "/images/categories/kraft_bakery_2.jpg", "/images/categories/kraft_bakery_3.jpg", "/images/categories/kraft_bakery_4.jpg", "/images/categories/kraft_bakery_5.jpg"],
+    images: [
+      "/images/By Industries 3/Backery boxes/Kraft box packaging/1.jpg",
+      "/images/By Industries 3/Backery boxes/Kraft box packaging/2.jpg",
+      "/images/By Industries 3/Backery boxes/Kraft box packaging/3.jpg",
+      "/images/By Industries 3/Backery boxes/Kraft box packaging/4.jpg",
+      "/images/By Industries 3/Backery boxes/Kraft box packaging/5.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Backery boxes/Kraft box packaging/2.jpg",
     faq: [
       { question: "Can kraft bakery boxes be printed in full color?", answer: "Yes, we can print full-color designs on kraft material." },
     ],
@@ -551,7 +791,13 @@ export const products: Product[] = [
     description: "Bakery boxes with clear windows to showcase your baked goods without opening.",
     longDescription: "Our window bakery boxes let your baked goods sell themselves. Die-cut windows with food-safe clear film allow customers to see your products without opening the box, driving purchase decisions.",
     features: ["Die-cut window", "Food-safe clear film", "Multiple window shapes", "Product visibility", "Custom sizes"],
-    images: ["/images/categories/window_bakery_1.jpg", "/images/categories/window_bakery_2.jpg", "/images/categories/window_bakery_3.jpg", "/images/categories/window_bakery_4.jpg"],
+    images: [
+      "/images/By Industries 3/Backery boxes/Window Box Packaging/1.jpg",
+      "/images/By Industries 3/Backery boxes/Window Box Packaging/2.jpg",
+      "/images/By Industries 3/Backery boxes/Window Box Packaging/3.jpg",
+      "/images/By Industries 3/Backery boxes/Window Box Packaging/4.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Backery boxes/Window Box Packaging/2.jpg",
     faq: [
       { question: "What window shapes are available?", answer: "We offer rectangular, round, oval, and custom-shaped windows." },
     ],
@@ -565,7 +811,13 @@ export const products: Product[] = [
     description: "Elegant bracelet packaging with cushioned inserts for secure presentation.",
     longDescription: "Our bracelet boxes are designed with cushioned inserts to hold bracelets securely and present them beautifully. Available in velvet-lined, kraft, and rigid styles with custom branding.",
     features: ["Cushioned inserts", "Velvet lining options", "Custom branding", "Multiple materials", "Premium finishes"],
-    images: ["/images/categories/bracelet_1.webp", "/images/categories/bracelet_2.webp", "/images/categories/bracelet_3.webp"],
+    images: [
+      "/images/By Industries 3/Jewlery/Bracelet Boxes/1.png",
+      "/images/By Industries 3/Jewlery/Bracelet Boxes/3.jpg",
+      "/images/By Industries 3/Jewlery/Bracelet Boxes/4.png",
+      "/images/By Industries 3/Jewlery/Bracelet Boxes/5.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Jewlery/Bracelet Boxes/3.jpg",
     faq: [
       { question: "Do bracelet boxes come with inserts?", answer: "Yes, all our bracelet boxes include cushioned inserts to hold bracelets securely." },
     ],
@@ -577,7 +829,14 @@ export const products: Product[] = [
     description: "Display-ready jewellery boxes designed for retail showcasing and gifting.",
     longDescription: "Our jewelry display boxes are crafted for retail environments and gift presentation. Featuring clear lids, velvet trays, and multi-compartment designs that showcase your pieces beautifully.",
     features: ["Clear lid options", "Velvet trays", "Multi-compartment designs", "Retail-ready presentation", "Custom sizes"],
-    images: ["/images/categories/jewdisplay_1.webp", "/images/categories/jewdisplay_2.webp", "/images/categories/jewdisplay_3.webp", "/images/categories/jewdisplay_4.webp"],
+    images: [
+      "/images/By Industries 3/Jewlery/Jewelry Display Boxes/1.jpg",
+      "/images/By Industries 3/Jewlery/Jewelry Display Boxes/2.png",
+      "/images/By Industries 3/Jewlery/Jewelry Display Boxes/3.png",
+      "/images/By Industries 3/Jewlery/Jewelry Display Boxes/4.png",
+      "/images/By Industries 3/Jewlery/Jewelry Display Boxes/5.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Jewlery/Jewelry Display Boxes/2.png",
     faq: [
       { question: "Can display boxes hold multiple pieces?", answer: "Yes, we offer multi-compartment designs for rings, earrings, necklaces, and bracelets." },
     ],
@@ -589,7 +848,13 @@ export const products: Product[] = [
     description: "Monthly subscription jewellery packaging designed for recurring shipments.",
     longDescription: "Our jewellery subscription boxes are designed for the growing subscription box market. Featuring branded exterior printing, protective inserts, and a premium unboxing experience that keeps subscribers excited month after month.",
     features: ["Branded exterior", "Protective inserts", "Mailer-ready design", "Premium unboxing", "Consistent sizing"],
-    images: ["/images/categories/jewsub_1.webp", "/images/categories/jewsub_2.webp", "/images/categories/jewsub_3.webp", "/images/categories/jewsub_4.webp"],
+    images: [
+      "/images/By Industries 3/Jewlery/Jewelry Subscription Boxes/1.png",
+      "/images/By Industries 3/Jewlery/Jewelry Subscription Boxes/2.png",
+      "/images/By Industries 3/Jewlery/Jewelry Subscription Boxes/3.png",
+      "/images/By Industries 3/Jewlery/Jewelry Subscription Boxes/4.png",
+    ],
+    hoverImage: "/images/By Industries 3/Jewlery/Jewelry Subscription Boxes/2.png",
     faq: [
       { question: "Are these boxes suitable for shipping?", answer: "Yes, our subscription boxes are designed to be shipped directly to customers without additional packaging." },
     ],
@@ -601,7 +866,13 @@ export const products: Product[] = [
     description: "Eco-friendly kraft jewellery boxes with a natural, artisan aesthetic.",
     longDescription: "Our kraft jewellery boxes offer an eco-friendly packaging solution with a charming rustic appeal. Made from recyclable kraft material with cotton-fill inserts, perfect for handmade jewellery brands.",
     features: ["Recyclable kraft material", "Cotton-fill inserts", "Custom stamping", "Eco-friendly", "Natural aesthetic"],
-    images: ["/images/categories/kraft_jew_1.webp", "/images/categories/kraft_jew_2.webp", "/images/categories/kraft_jew_3.webp", "/images/categories/kraft_jew_4.webp"],
+    images: [
+      "/images/By Industries 3/Jewlery/Kraft jewlery/1.png",
+      "/images/By Industries 3/Jewlery/Kraft jewlery/2.png",
+      "/images/By Industries 3/Jewlery/Kraft jewlery/3.png",
+      "/images/By Industries 3/Jewlery/Kraft jewlery/4.png",
+    ],
+    hoverImage: "/images/By Industries 3/Jewlery/Kraft jewlery/2.png",
     faq: [
       { question: "Can kraft jewellery boxes be customized?", answer: "Yes, we offer custom stamping, printing, and sizing on all kraft jewellery boxes." },
     ],
@@ -613,7 +884,13 @@ export const products: Product[] = [
     description: "Custom necklace packaging with hooks and inserts for tangle-free presentation.",
     longDescription: "Our necklace packaging features specially designed hooks, slots, and inserts to keep necklaces tangle-free and beautifully displayed. Available in gift box, folding, and rigid styles.",
     features: ["Tangle-free hooks", "Custom inserts", "Multiple styles", "Premium presentation", "Gift-ready packaging"],
-    images: ["/images/categories/necklace_1.webp", "/images/categories/necklace_2.webp", "/images/categories/necklace_3.webp", "/images/categories/necklace_4.webp"],
+    images: [
+      "/images/By Industries 3/Jewlery/Necklace Packaging/1.png",
+      "/images/By Industries 3/Jewlery/Necklace Packaging/2.png",
+      "/images/By Industries 3/Jewlery/Necklace Packaging/3.png",
+      "/images/By Industries 3/Jewlery/Necklace Packaging/4.png",
+    ],
+    hoverImage: "/images/By Industries 3/Jewlery/Necklace Packaging/2.png",
     faq: [
       { question: "How do necklace boxes prevent tangling?", answer: "Our boxes feature hooks and slots designed to keep necklaces separated and tangle-free." },
     ],
@@ -627,8 +904,14 @@ export const products: Product[] = [
     description: "Mylar bags with hang holes for retail display on hooks and pegboards.",
     longDescription: "Our hanging mylar bags feature reinforced hang holes for easy retail display on hooks and pegboards. Available with resealable closures and full-color custom printing for maximum shelf impact.",
     features: ["Reinforced hang holes", "Resealable closures", "Full-color printing", "Barrier protection", "Retail-ready"],
-    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/hanging_mylar_1.jpg", "/images/categories/hanging_mylar_2.jpg", "/images/categories/hanging_mylar_3.jpg", "/images/categories/hanging_mylar_4.jpg"],
-    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
+    images: [
+      "/images/By Industries 3/Maylar bags/Hangig mylar bag/1.png",
+      "/images/By Industries 3/Maylar bags/Hangig mylar bag/2.png",
+      "/images/By Industries 3/Maylar bags/Hangig mylar bag/3.png",
+      "/images/By Industries 3/Maylar bags/Hangig mylar bag/4.png",
+    ],
+    hoverImage: "/images/By Industries 3/Maylar bags/Hangig mylar bag/2.png",
+
     faq: [
       { question: "Are hang holes reinforced?", answer: "Yes, all our hanging mylar bags feature reinforced hang holes to prevent tearing." },
     ],
@@ -640,8 +923,15 @@ export const products: Product[] = [
     description: "Kraft-front mylar bags combining natural aesthetics with barrier protection.",
     longDescription: "Our kraft mylar bags feature a natural kraft front with a foil-lined back for superior barrier protection. Perfect for organic, natural, and artisan products that need shelf appeal with product freshness.",
     features: ["Kraft front / foil back", "Barrier protection", "Resealable zip lock", "Window options", "Eco-friendly appearance"],
-    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/kraft_mylar_1.jpg", "/images/categories/kraft_mylar_2.jpg", "/images/categories/kraft_mylar_3.jpg", "/images/categories/kraft_mylar_4.jpg", "/images/categories/kraft_mylar_5.jpg"],
-    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
+    images: [
+      "/images/By Industries 3/Maylar bags/Kraft mylar bags/1.png",
+      "/images/By Industries 3/Maylar bags/Kraft mylar bags/2.png",
+      "/images/By Industries 3/Maylar bags/Kraft mylar bags/3.png",
+      "/images/By Industries 3/Maylar bags/Kraft mylar bags/4.png",
+      "/images/By Industries 3/Maylar bags/Kraft mylar bags/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Maylar bags/Kraft mylar bags/2.png",
+
     faq: [
       { question: "Do kraft mylar bags offer the same protection as regular mylar?", answer: "Yes, the foil-lined back provides the same moisture, light, and oxygen barrier protection." },
     ],
@@ -653,8 +943,15 @@ export const products: Product[] = [
     description: "Resealable mylar bags with zip lock closures for easy open-and-close convenience.",
     longDescription: "Our resealable zip lock mylar bags offer convenience and freshness. Customers can easily open and reseal the bag multiple times while maintaining product freshness and barrier protection.",
     features: ["Zip lock closure", "Multiple reseal uses", "Barrier protection", "Custom printing", "Multiple sizes"],
-    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/resealable_zip_1.jpg", "/images/categories/resealable_zip_2.jpg", "/images/categories/resealable_zip_3.jpg", "/images/categories/resealable_zip_4.jpg"],
-    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
+    images: [
+      "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/1.png",
+      "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/2.png",
+      "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/3.png",
+      "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/4.png",
+      "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Maylar bags/Resealable Zip Lock Bags/2.png",
+
     faq: [
       { question: "How many times can bags be resealed?", answer: "Our zip lock closures are designed for hundreds of open-and-close cycles." },
     ],
@@ -666,8 +963,15 @@ export const products: Product[] = [
     description: "Side gusset mylar bags with extra volume for bulkier products.",
     longDescription: "Our side gusset mylar bags expand to accommodate bulkier products while maintaining a slim profile on shelves. Ideal for coffee, tea, snacks, and other products that need extra volume.",
     features: ["Expandable side gussets", "Extra volume capacity", "Barrier protection", "Custom printing", "Shelf-stable profile"],
-    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/side_gusset_1.jpg", "/images/categories/side_gusset_2.jpg", "/images/categories/side_gusset_3.jpg", "/images/categories/side_gusset_4.jpg", "/images/categories/side_gusset_5.jpg"],
-    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
+    images: [
+      "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/1.png",
+      "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/2.png",
+      "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/3.png",
+      "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/4.png",
+      "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Maylar bags/Side ghuset mylar bags/2.png",
+
     faq: [
       { question: "What products are side gusset bags best for?", answer: "Side gusset bags are ideal for coffee, tea, granola, pet food, and other bulky items." },
     ],
@@ -679,8 +983,15 @@ export const products: Product[] = [
     description: "Stand-up pouches with bottom gussets for self-standing retail display.",
     longDescription: "Our stand-up mylar bags feature a bottom gusset that allows them to stand upright on shelves for maximum retail visibility. Available with resealable closures, tear notches, and full-color printing.",
     features: ["Self-standing design", "Bottom gusset", "Resealable closures", "Tear notches", "Full-color printing"],
-    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/standup_mylar_1.jpg", "/images/categories/standup_mylar_2.jpg", "/images/categories/standup_mylar_3.jpg", "/images/categories/standup_mylar_4.jpg"],
-    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
+    images: [
+      "/images/By Industries 3/Maylar bags/Stand up mylar bags/1.png",
+      "/images/By Industries 3/Maylar bags/Stand up mylar bags/2.png",
+      "/images/By Industries 3/Maylar bags/Stand up mylar bags/3.png",
+      "/images/By Industries 3/Maylar bags/Stand up mylar bags/4.png",
+      "/images/By Industries 3/Maylar bags/Stand up mylar bags/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Maylar bags/Stand up mylar bags/2.png",
+
     faq: [
       { question: "Do stand-up bags stay upright when partially full?", answer: "Yes, the bottom gusset design keeps bags standing upright even when partially full." },
     ],
@@ -692,8 +1003,15 @@ export const products: Product[] = [
     description: "Mylar bags with clear windows to showcase product contents.",
     longDescription: "Our window mylar bags feature clear window panels that let customers see the product inside while maintaining barrier protection. Perfect for snacks, dried fruits, candy, and any product that sells visually.",
     features: ["Clear window panel", "Barrier protection maintained", "Product visibility", "Custom window shapes", "Resealable options"],
-    images: ["/images/By Style 2/Mylar bag/dav.png", "/images/categories/window_mylar_1.jpg", "/images/categories/window_mylar_2.jpg", "/images/categories/window_mylar_3.jpg", "/images/categories/window_mylar_4.jpg"],
-    hoverImage: "/images/By Style 2/Mylar bag/eqdwfsd.png",
+    images: [
+      "/images/By Industries 3/Maylar bags/Window mylar bags/1.png",
+      "/images/By Industries 3/Maylar bags/Window mylar bags/2.png",
+      "/images/By Industries 3/Maylar bags/Window mylar bags/3.png",
+      "/images/By Industries 3/Maylar bags/Window mylar bags/4.png",
+      "/images/By Industries 3/Maylar bags/Window mylar bags/5.png",
+    ],
+    hoverImage: "/images/By Industries 3/Maylar bags/Window mylar bags/2.png",
+
     faq: [
       { question: "Does the window affect barrier protection?", answer: "Our windows are made from food-grade clear film that maintains barrier protection while allowing product visibility." },
     ],
@@ -707,7 +1025,13 @@ export const products: Product[] = [
     description: "Eco-friendly kraft oil boxes with custom inserts for bottle protection.",
     longDescription: "Our kraft oil packaging combines natural aesthetics with functional protection. Made from recyclable kraft material with custom die-cut inserts to securely hold bottles during shipping and retail display.",
     features: ["Recyclable kraft material", "Custom bottle inserts", "Eco-friendly", "Custom printing", "Multiple bottle sizes"],
-    images: ["/images/categories/kraft_oil_1.jpg", "/images/categories/kraft_oil_2.jpg", "/images/categories/kraft_oil_3.jpg", "/images/categories/kraft_oil_4.jpg"],
+    images: [
+      "/images/By Industries 3/Oil packaging/Kraft oli packaging/1.png",
+      "/images/By Industries 3/Oil packaging/Kraft oli packaging/2.png",
+      "/images/By Industries 3/Oil packaging/Kraft oli packaging/3.png",
+      "/images/By Industries 3/Oil packaging/Kraft oli packaging/4.png",
+    ],
+    hoverImage: "/images/By Industries 3/Oil packaging/Kraft oli packaging/2.png",
     faq: [
       { question: "Can kraft oil boxes hold glass bottles?", answer: "Yes, our custom inserts are designed to securely hold glass bottles of various sizes." },
     ],
@@ -719,13 +1043,109 @@ export const products: Product[] = [
     description: "Sturdy corrugated shipping boxes designed for safe oil bottle transit.",
     longDescription: "Our oil shipping boxes are engineered for maximum protection during transit. Made from sturdy corrugated material with custom inserts and dividers to prevent bottle movement and breakage.",
     features: ["Corrugated construction", "Custom bottle inserts", "Divider options", "Shock protection", "Multiple bottle configurations"],
-    images: ["/images/categories/oil_ship_1.jpg", "/images/categories/oil_ship_2.jpg", "/images/categories/oil_ship_3.jpg", "/images/categories/oil_ship_4.jpg"],
+    images: [
+      "/images/By Industries 3/Oil packaging/oil shipping boxes/1.png",
+      "/images/By Industries 3/Oil packaging/oil shipping boxes/2.png",
+      "/images/By Industries 3/Oil packaging/oil shipping boxes/3.png",
+      "/images/By Industries 3/Oil packaging/oil shipping boxes/4.png",
+    ],
+    hoverImage: "/images/By Industries 3/Oil packaging/oil shipping boxes/2.png",
     faq: [
       { question: "How many bottles can one shipping box hold?", answer: "We design boxes for single bottles up to 12+ bottle configurations with custom dividers." },
     ],
   },
 
   // ===== AUTO PARTS =====
+  {
+    slug: "oil-filter-boxes",
+    name: "Custom Oil Filter Boxes",
+    categorySlug: "auto-parts",
+    description: "Sturdy custom boxes that protect oil filters and showcase your brand on the shelf.",
+    longDescription: "Our oil filter boxes are built to hold cylindrical filters securely during shipping and retail display. Printed in full color on durable board, with sizes and inserts made to fit your filter range.",
+    features: ["Durable corrugated construction","Fits all filter sizes","Full-color branding","Optional inserts","Shelf-ready design"],
+    images: [
+      "/images/By Industries 3/auto parts/Oil Filter Boxes/1.jpg",
+      "/images/By Industries 3/auto parts/Oil Filter Boxes/2.jpg",
+      "/images/By Industries 3/auto parts/Oil Filter Boxes/3.jpg",
+      "/images/By Industries 3/auto parts/Oil Filter Boxes/4.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/auto parts/Oil Filter Boxes/2.jpg",
+    faq: [
+      { question: "Can you make oil filters packaging in custom sizes?", answer: "Yes, we make every box to your exact dimensions, with printing and inserts to match your product." },
+    ],
+  },
+  {
+    slug: "spark-plug-boxes",
+    name: "Custom Spark Plug Boxes",
+    categorySlug: "auto-parts",
+    description: "Compact custom boxes that keep spark plugs protected, organized and brand-ready.",
+    longDescription: "Our spark plug boxes keep delicate electrodes and ceramics safe from impact. Available as single-plug, multi-pack and display packaging with custom inserts and high-quality printing.",
+    features: ["Protective inserts","Single and multi-pack options","Full-color printing","Compact, stackable design","Custom sizes"],
+    images: [
+      "/images/By Industries 3/auto parts/Spark Plug Boxes/1.jpg",
+      "/images/By Industries 3/auto parts/Spark Plug Boxes/2.jpg",
+      "/images/By Industries 3/auto parts/Spark Plug Boxes/3.jpg",
+      "/images/By Industries 3/auto parts/Spark Plug Boxes/4.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/auto parts/Spark Plug Boxes/2.jpg",
+    faq: [
+      { question: "Can you make spark plugs packaging in custom sizes?", answer: "Yes, we make every box to your exact dimensions, with printing and inserts to match your product." },
+    ],
+  },
+  {
+    slug: "wiper-blade-packaging",
+    name: "Custom Wiper Blade Packaging",
+    categorySlug: "auto-parts",
+    description: "Long, slim custom packaging designed for wiper blades and automotive accessories.",
+    longDescription: "Our wiper blade packaging is sized for long, slim products and designed to keep blades flat and undamaged. Choose window cut-outs or hang-tab options to display your product at retail.",
+    features: ["Sized for any blade length","Window and hang-tab options","Full-color branding","Strong board stock","Retail-ready design"],
+    images: [
+      "/images/By Industries 3/auto parts/Wiper Blade Packaging/1.jpg",
+      "/images/By Industries 3/auto parts/Wiper Blade Packaging/2.jpg",
+      "/images/By Industries 3/auto parts/Wiper Blade Packaging/3.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/auto parts/Wiper Blade Packaging/2.jpg",
+    faq: [
+      { question: "Can you make wiper blades packaging in custom sizes?", answer: "Yes, we make every box to your exact dimensions, with printing and inserts to match your product." },
+    ],
+  },
+  {
+    slug: "air-filter-packaging",
+    name: "Customized Air Filter Packaging",
+    categorySlug: "auto-parts",
+    description: "Custom packaging for air filters that protects the pleated media and sells your brand.",
+    longDescription: "Our air filter packaging is made to fit the exact dimensions of your filters, protecting pleats and frames in transit. Bold print and clear product information help your filters stand out on the shelf.",
+    features: ["Made to fit exact filter sizes","Protects filter media","Full-color printing","Product info panels","Stackable design"],
+    images: [
+      "/images/By Industries 3/auto parts/customized air filter packaging/1.jpg",
+      "/images/By Industries 3/auto parts/customized air filter packaging/2.jpg",
+      "/images/By Industries 3/auto parts/customized air filter packaging/3.jpg",
+      "/images/By Industries 3/auto parts/customized air filter packaging/5..jpg",
+    ],
+    hoverImage: "/images/By Industries 3/auto parts/customized air filter packaging/2.jpg",
+    faq: [
+      { question: "Can you make air filters packaging in custom sizes?", answer: "Yes, we make every box to your exact dimensions, with printing and inserts to match your product." },
+    ],
+  },
+  {
+    slug: "take-out-boxes",
+    name: "Custom Take Out Boxes",
+    categorySlug: "food-packaging",
+    description: "Custom take out boxes for restaurants and food brands, sturdy, leak-resistant and branded.",
+    longDescription: "Our take out boxes keep meals secure and presentable from kitchen to doorstep. Made from food-safe materials with custom printing, they are ideal for restaurants, cafes and delivery brands.",
+    features: ["Food-safe materials","Leak-resistant options","Full-color printing","Easy-fold assembly","Custom sizes"],
+    images: [
+      "/images/By Industries 3/Food Packagig/Take out/1.jpg",
+      "/images/By Industries 3/Food Packagig/Take out/2.jpg",
+      "/images/By Industries 3/Food Packagig/Take out/3.jpg",
+      "/images/By Industries 3/Food Packagig/Take out/4.jpg",
+      "/images/By Industries 3/Food Packagig/Take out/5.jpg",
+    ],
+    hoverImage: "/images/By Industries 3/Food Packagig/Take out/2.jpg",
+    faq: [
+      { question: "Can you make take out boxes packaging in custom sizes?", answer: "Yes, we make every box to your exact dimensions, with printing and inserts to match your product." },
+    ],
+  },
   {
     slug: "auto-parts-boxes",
     name: "Custom Auto Parts Boxes",
