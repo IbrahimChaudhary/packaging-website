@@ -484,6 +484,7 @@ export const products: Product[] = [
     faq: [
       { question: "Are these boxes grease-proof?", answer: "Yes, our burger boxes feature grease resistant coatings to keep packaging clean." },
     ],
+
   },
   {
     slug: "cereal-boxes",
